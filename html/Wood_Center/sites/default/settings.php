@@ -89,7 +89,7 @@
  *   $db_url = 'mysqli://username:password@localhost/databasename';
  *   $db_url = 'pgsql://username:password@localhost/databasename';
  */
-$db_url = 'mysql://cesarbru_Wood_Center:s3cr3t%23!@localhost/cesarbru_bd_wood_center';
+$db_url = 'mysql://'.$_ENV['MYSQL_USER'].':'.$_ENV['MYSQL_PASS'].'@'.$_ENV['MYSQL_HOST'].'/cesarbru_bd_wood_center';
 $db_prefix = 'drupal_';
 
 /**
