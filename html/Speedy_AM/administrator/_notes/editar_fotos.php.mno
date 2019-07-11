@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_Lista_Fotos" value="name:fotv_id;datatype:int,name:fotv_id_veiculo;datatype:int,name:fotv_src;datatype:string,name:fotv_link;datatype:string" />
+	<infoitem key="UD_Rs_ListaVeiculos" value="name:vei_id;datatype:int,name:vei_marca;datatype:string,name:vei_modelo;datatype:string,name:vei_ano;datatype:string,name:vei_km;datatype:string,name:vei_descricao;datatype:blob" />
+	<infoitem key="UD_Rs_VeiculoSelecao" value="name:vei_id;datatype:int,name:vei_marca;datatype:string,name:vei_modelo;datatype:string,name:vei_ano;datatype:string" />
+</info>

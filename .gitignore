@@ -1,19 +1,59 @@
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
 *.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/mu-plugins/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+*.sqlite
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+#trademark sillyness
+app/views/home/_show.*
+app/assets/images/custom/*
 
+
+# Configuration files
+.bundle
+vendor/bundle/*
+vendor/cache/*
+.rvmrc_custom
+.rvmrc.local
+
+#Mailing list stuff
+config/email_offset
+config/mailing_list.csv
+
+# Generated files
+log/*
+
+#Documentation
+.yardoc/
+
+# Uploaded files and local files
+tmp/**/*
+tmp/*
+*.sqlite3
+
+# Temporary files of every sort
+.sass-cache/*
+.DS_Store
+.idea
+.redcar
+.rvmrc
+.project
+.stgit*
+*.swap
+*.swo
+*.swp
+*~
+
+nbproject
+patches-*
+capybara-*.html
+dump.rdb
+
+#Rubinius's JIT
+*.rbc
+
+# Ignore precompiled assets
+# Heroku or Capistrano can and should regenerate them on every deploy
+public/assets
+.vscode

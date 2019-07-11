@@ -1,0 +1,6 @@
+ErrorDocument 403 http://viagepaulatur.com.br/403.html
+ErrorDocument 404 http://viagepaulatur.com.br/404.html
+
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+

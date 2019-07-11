@@ -1,0 +1,173 @@
+body {
+	background-image: url(imagens/tmpl/body-bg.jpg);
+	background-repeat: repeat;
+	background-position: top;
+}
+
+#all {
+	width: 955px;
+	background-color: #FFF;
+	margin: auto;
+	padding: 0px;
+}
+#all #banner {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+}
+#all #menu-adm {
+	margin: 0px;
+	padding: 0px;
+	width: 950px;
+}
+#all #conteudo {
+	padding: 0px;
+	margin: 15px;
+}
+#all #conteudo p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: justify;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#all #conteudo h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	color: #1C598F;
+	font-weight: bolder;
+	font-size: large;
+	padding: 10px;
+}
+#all #conteudo #conteudo #se {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+}
+#all #conteudo #conteudo #se a {
+	color: #009;
+}
+#all #conteudo #conteudo #form1 table #fck {
+	border: 1px solid #000;
+}
+#all #conteudo #editar #Paginas tr th{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #067FDC;
+	border-right-color: #067FDC;
+	border-bottom-color: #067FDC;
+	padding: 5px;
+}
+#all #conteudo #editar #Paginas tr td{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-right-color: #067FDC;
+	border-bottom-color: #067FDC;
+	text-align: center;
+}
+#all #conteudo #editar #form1 #stilo_email {
+	border: 2px dashed #06F;
+}
+
+#all #conteudo #login #login table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+#all #conteudo #login p {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+#all #conteudo #login p a {
+	color: #00F;
+}
+#all #conteudo #conteudo #upimagem {
+	border: 2px dashed #067FDC;
+}
+
+
+
+
+
+#all #conteudo #topo a   {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #06F;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 870px;
+	padding: 0px;
+}
+#all #conteudo #topo2 a   {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C598F;
+	font-weight: bolder;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	text-decoration: underline;
+}
+#all #rodape {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+	background-color: #2AB6FC;
+	background-image: url(imagens/tmpl/rodape.png);
+	background-repeat: repeat-x;
+	background-position: left;
+	height: 120px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#all #rodape p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin: 0px;
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #rodape p strong {
+	color: #000;
+}
+
+
+#sobre {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+}

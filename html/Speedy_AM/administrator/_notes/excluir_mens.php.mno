@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_ExcluirConteudo" value="name:pag_id;datatype:int,name:pag_nome;datatype:string,name:pag_titulo;datatype:string" />
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_Rs_ExcluirMensagem" value="name:men_id;datatype:int,name:men_nome;datatype:string,name:men_assunto;datatype:string,name:men_data;datatype:date" />
+	<infoitem key="MMGuideCount" value="2" />
+	<infoitem key="MMGuide0" value="horizontal: user 15 px" />
+	<infoitem key="MMGuide1" value="horizontal: user 215 px" />
+</info>

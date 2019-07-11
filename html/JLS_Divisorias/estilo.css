@@ -1,0 +1,152 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #0099FF;
+	background-image: url(imagens/bg.png);
+}
+
+#all {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+	background-color: #FFF;
+}
+#all #menu {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+}
+#all #conteudo {
+	background-color: #FFF;
+	padding: 0px;
+	margin: 20px;
+}
+#all #conteudo h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: #09F;
+	text-align: center;
+	font-size: 24px;
+}
+#all #conteudo h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	padding: 0px;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#all #conteudo p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: justify;
+}
+#all #conteudo #logo  {
+	float: left;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #conteudo p #logo2 {
+	float: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#all #conteudo #cont a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #06F;
+	font-weight: bolder;
+	text-decoration: underline;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 580px;
+	margin-top: -40px;
+}
+#all #conteudo #links tr td b a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	margin: auto;
+}
+#all #conteudo #links tr td b a #links {
+	padding: 10px;
+	margin: auto;
+}
+
+
+
+
+#all #conteudo #envar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#all #conteudo #topo a   {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #06F;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	margin: 0px;
+	float: right;
+}
+#all #rodape {
+	background-color: #FFF;
+	background-image: url(imagens/rodape.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	background-position: bottom;
+}
+#all #rodape p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+#all #rodape #webmail a img {
+	float: right;
+	margin-top: -50px;
+}
+
+#sobre {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_EditarPagina" value="name:pag_id;datatype:int,name:pag_nome;datatype:string,name:pag_status;datatype:string,name:pag_titulo;datatype:string,name:pag_conteudo;datatype:blob,name:pag_data;datatype:date" />
+	<infoitem key="UD_Rs_PaginaEditar" value="name:pag_id;datatype:int,name:pag_nome;datatype:string,name:pag_status;datatype:string,name:pag_titulo;datatype:string,name:pag_conteudo;datatype:blob" />
+	<infoitem key="UD_Rs_VeiculoEditar" value="name:vei_id;datatype:int,name:vei_marca;datatype:string,name:vei_modelo;datatype:string,name:vei_ano;datatype:string,name:vei_km;datatype:string,name:vei_descricao;datatype:blob" />
+</info>

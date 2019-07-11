@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install method="upgrade" type="module" version="1.5.0">
+	<name>Phoca - Google AdSense Easy</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>28/10/2007</creationDate>
+	<copyright>Jan Pavelka</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@phoca.cz</authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<version>1.0.0</version>
+	<description>Phoca - Google AdSense Easy - Just copy your Google AdSense Code and paste it into your Joomla! site. AdSense Code - Paste your AdSense Code here. IP(s) Block List - Add the IP(s) you want to block here. Separate each IP with semicolon (;). Alternate Content - Specify alternate content for blocked IP(s)</description>
+	<files>
+		<filename module="mod_phoca_google_adsense">mod_phoca_google_adsense.php</filename>
+		<filename module="mod_phoca_google_adsense">index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_phoca_google_adsense.ini</language>
+	</languages>
+	<params>
+		<param name="adsense_code" type="textarea" rows="15" cols="40" default="" label="AdSense Code" description="Adsense Code DESC" />
+		<param name="ip_block_list" type="textarea" rows="3" cols="40" default="" label="IP(s) Block List" description="IP(s) Block List DESC" />
+		<param name="alternate_content" type="textarea" rows="5" cols="40" default="" label="Alternate Content" description="Alternate Content DESC" />
+	</params>
+	<params group="advanced">
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="module_css_style" type="text" default="" label="Module CSS Style" description="Module CSS Style DESC" />
+	</params>
+</install>

@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>..:: Servi&ccedil;os RN ::..</title>
+
+<META NAME="AUTHOR" CONTENT="Cesar Augusto">
+
+<meta name="keywords" content="gesso, reformas, servicos, rn, sandro nagy, mouduras, cordoes, pinturas, casa, apartamentos, restauraões, portas, janelas, eletrica, hitraulica, santo andre, abc, grande abc, são paulo, " />
+
+<meta name="description" content="Trabalhamos com todos os serviços de reformas, acabamentos em gesso, pinturas, e restaurações de portas e janelas, Fazemos orçamentos sem compromisso" />
+
+
+<link rel="shortcut icon" href= "imagens/favicon.ico" />
+
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+
+<!--SHADOWNBOX -->
+<link rel="stylesheet" type="text/css" href="src/shadowbox.css">
+<script type="text/javascript" src="src/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+    language: 'pt-BR',
+    players:  ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv']
+});
+</SCRIPT>
+<!-- LIGHT WINDOWS
+<script type="text/javascript" src="src/javascript/prototype.js"></script>
+<script type="text/javascript" src="src/javascript/scriptaculous.js"></script>
+<script type="text/javascript" src="src/javascript/lightwindow.js"></script>
+<link rel="stylesheet" href="src/css/lightwindow.css" type="text/css" media="screen" />
+-->
+
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<table border="0" align="center">
+  <tr>
+    <td><div id="all">
+      <div id="banner">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="770" height="150" id="FlashID" title="Banner">
+          <param name="movie" value="imagens/BANNER.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="swfversion" value="6.0.65.0" />
+          <!-- Esta tag param solicita que os usuários com o Flash Player 6.0 r65 e versões posteriores baixem a versão mais recente do Flash Player. Exclua-o se você não deseja que os usuários vejam o prompt. -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+          <!-- A tag object a seguir aplica-se a navegadores que não sejam o IE. Portanto, oculte-a do IE usando o IECC. -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="imagens/BANNER.swf" width="770" height="150">
+            <!--<![endif]-->
+            <param name="quality" value="high" />
+            <param name="wmode" value="opaque" />
+            <param name="swfversion" value="6.0.65.0" />
+            <param name="expressinstall" value="Scripts/expressInstall.swf" />
+            <!-- O navegador exibe o seguinte conteúdo alternativo para usuários que tenham o Flash Player 6.0 e versões anteriores. -->
+            <div>
+              <h4>O conte&uacute;do desta p&aacute;gina requer uma vers&atilde;o mais recente do Adobe Flash Player.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obter Adobe Flash player" width="112" height="33" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+      </div>
+<div id="menu">
+      <table width="770" border="0">
+          <tr>
+            <td>
+        <ul id="barra_menu" class="MenuBarHorizontal">
+          <li><a href="index.html">Home</a></li>
+<li id="materiais"><a class="MenuBarItemSubmenu" href="#">Servi&ccedil;os</a>
+  <ul id="materiais">
+              <li id="materiais"><a href="gesso.html">Gesso</a>                </li>
+              <li id="materiais"><a href="pintura.html">Pintura</a></li>
+			  <li id="materiais"><a  href="restauracao.html">Restaura&ccedil;&atilde;o de Portas e Janelas</a></li>
+            </ul>
+          </li>
+</ul>
+      </td>
+            <td align="center" ><a href="trabalhe.php"><img src="imagens/trabalhe.png" alt="Trabalhe Conosco" width="25" border="0" title="Trabalhe Conosco" /></a></td>
+            <td align="center" ><a href="contato.html"><img src="imagens/contato.png" alt="Contate-nos" width="25" border="0" title="Contate-nos"/></a></td>
+          </tr>
+      </table></div>
+      <div id="conteudo"> 
+        <h1>Molduras em Gesso</h1>
+        <p>**Click nas imagem para enviar seu or&ccedil;amento</p>
+        <h2>Linha Clean</h2>
+        <table width="723" border="0" align="center">
+          <tr>
+            <td width="109"><p><a href="orcamento.php?id=200" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/200[1].jpg" width="77" height="80" border="0" /> 200</a></p></td>
+            <td width="113"><p><a href="orcamento.php?id=201" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/201[1].jpg" width="81" height="80" border="0" /> <br />
+              201</a></p></td>
+            <td width="227"><p><a href="orcamento.php?id=202" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/202[1].jpg" width="68" height="80" border="0" /><br />
+              202</a></p></td>
+            <td width="134"><p><a href="orcamento.php?id=203" rel="shadowbox;width=550;height=400"> <img src="imagens/gesso/molduras/clean/203[1].jpg" width="68" height="80" border="0" /><br />
+              203</a></p></td>
+            <td width="87"><p><a href="orcamento.php?id=204" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/204[1].jpg" width="63" height="80" border="0" />204</a></p></td>
+          </tr>
+          <tr>
+            <td height="131" colspan="2"><p><a href="orcamento.php?id=1000" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/acabamento_forro_suspenso[1].jpg" width="176" height="85" border="0" /> Moldura de Apoio para Dilatação de Forro em todos os modelos, no tamanho PP</a></p></td>
+            <td height="131"><p><a href="orcamento.php?id=1001" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/junta_dilatacao_pp[1].jpg" width="195" height="80" border="0" />Junta de Dilata&ccedil;&atilde;o Macho/F&ecirc;mea para   Forro tipo Suspenso</a></p></td>
+            <td height="131" colspan="2"><p><a href="orcamento.php?id=1002" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/clean/junta_macho_femea[1].jpg" width="193" height="80" border="0" /> Acabamento para Forro Tipo Suspenso não Dilatado (cadeirinha)</a></p></td>
+          </tr>
+        </table>
+        <h2>Linha Decoradas</h2>
+        <table width="721" border="0" align="center">
+          <tr>
+            <td width="138"><p><a href="orcamento.php?id=101" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/101[1].jpg" width="97" height="80" border="0" />
+              101</a></p></td>
+            <td width="142"><p><a href="orcamento.php?id=102" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/102[1].jpg" width="95" height="80" border="0" />
+             102</a></p></td>
+            <td width="149"><p><a href="orcamento.php?id=103" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/103[1].jpg" width="90" height="80" border="0" />
+             103</a></p></td>
+            <td width="136"><p><a href="orcamento.php?id=104" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/104[1].jpg" width="104" height="90" border="0" />
+              104</a></p></td>
+            <td width="134"><p><a href="orcamento.php?id=105" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/105[1].jpg" width="85" height="90" border="0" />
+              105</a></p></td>
+            </tr>
+          <tr>
+            <td height="118"><p><a href="orcamento.php?id=107" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/107[1].jpg" width="106" height="80" border="0" />
+              107</a></p></td>
+            <td><p><a href="orcamento.php?id=112" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/112[1].jpg" width="110" height="70" border="0" />
+              112</a></p></td>
+            <td><p><a href="orcamento.php?id=13" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/13[1].jpg" width="117" height="70" border="0" />
+              13</a></p></td>
+            <td><p><a href="orcamento.php?id=14" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/14[1].jpg" width="93" height="60" border="0" />
+             14</a></p></td>
+            <td><p><a href="orcamento.php?id=1" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/1[1].jpg" width="92" height="54" border="0" />
+              1</a></p></td>
+            </tr>
+          <tr>
+            <td height="108"><p><a href="orcamento.php?id=3" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/3[1].jpg" width="97" height="53" border="0" />
+              3</a></p></td>
+            <td><p><a href="orcamento.php?id=4" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/4[1].jpg" width="109" height="54" border="0" />
+              4</a></p></td>
+            <td><p><a href="orcamento.php?id=57" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/57[1].jpg" width="104" height="71" border="0" />
+              57</a></p></td>
+            <td><p><a href="orcamento.php?id=58" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/58[1].jpg" width="96" height="65" border="0" />
+             58</a></p></td>
+            <td><p><a href="orcamento.php?id=56" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/5[1].jpg" width="92" height="56" border="0" />
+              5</a></p></td>
+            </tr>
+          <tr>
+            <td height="118"><p><a href="orcamento.php?id=67" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/67[1].jpg" width="106" height="80" border="0" />
+              67</a></p></td>
+            <td><p><a href="orcamento.php?id=6" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/6[1].jpg" width="110" height="70" border="0" />
+              6</a></p></td>
+            <td><p><a href="orcamento.php?id=13" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/13[1].jpg" width="117" height="70" border="0" />
+              13</a></p></td>
+            <td><p><a href="orcamento.php?id=14" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/14[1].jpg" width="93" height="60" border="0" />
+             14</a></p></td>
+            <td><p><a href="orcamento.php?id=2" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/2[6].jpg" width="97" height="42" border="0" />2</a></p></td>
+            </tr>
+          <tr>
+            <td height="118"><p><a href="orcamento.php?id=106" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/106[1].jpg" width="87" height="80" border="0" />
+              106</a></p></td>
+            <td><p><a href="orcamento.php?id=65" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/decoradas/65[1].jpg" width="116" height="66" border="0" /> 65</a></p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+            <td><p>&nbsp;</p></td>
+          </tr>
+          
+        </table>
+        <h2>Linha Lisa</h2>
+        <table width="756" border="0" align="center">
+          <tr>
+            <td width="129"><p><a href="orcamento.php?id=10" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/10[1].jpg" width="97" height="68" border="0" /> 10</a></p></td>
+            <td width="152"><p><a href="orcamento.php?id=11" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/11[1].jpg" width="107" height="70" border="0" /> 11</a></p></td>
+            <td width="147"><p><a href="orcamento.php?id=12" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/12[1].jpg" width="110" height="55" border="0" /> 12</a></p></td>
+            <td width="159"><p><a href="orcamento.php?id=130" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/130[1].jpg" width="116" height="80" border="0" /> 130</a></p></td>
+            <td width="147"><p><a href="orcamento.php?id=19" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/19[1].jpg" width="100" height="70" border="0" /> 19</a></p></td>
+          </tr>
+          <tr>
+            <td height="118"><p><a href="orcamento.php?id=22" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/22[1].jpg" width="85" height="70" border="0" /> 22</a></p></td>
+            <td><p><a href="orcamento.php?id=29" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/29[1].jpg" width="115" height="55" border="0" /> 29</a></p></td>
+            <td><p><a href="orcamento.php?id=59" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/59[1].jpg" width="107" height="70" border="0" /> 59</a></p></td>
+            <td><p><a href="orcamento.php?id=61" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/61[1].jpg" width="127" height="45" border="0" /> 61</a></p></td>
+            <td><p><a href="orcamento.php?id=63" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/63[1].jpg" width="108" height="75" border="0" /> 63</a></p></td>
+          </tr>
+          <tr>
+            <td height="118"><p><a href="orcamento.php?id=84" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/84[1].jpg" width="97" height="78" border="0" /> 84</a></p></td>
+            <td><p><a href="orcamento.php?id=89" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/89[1].jpg" width="120" height="45" border="0" /> 89</a></p></td>
+            <td><p><a href="orcamento.php?id=8" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/8[1].jpg" width="115" height="50" border="0" /> 8</a></p></td>
+            <td><p><a href="orcamento.php?id=98" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/98[1].jpg" width="113" height="65" border="0" /> 98</a></p></td>
+            <td><p><a href="orcamento.php?id=9" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/lisa/9[1].jpg" width="109" height="69" border="0" /> 9</a></p></td>
+          </tr>
+        </table>
+        <h2>Linha Plus</h2>
+        <table width="681" border="0" align="center">
+          <tr>
+            <td width="132"><p><a href="orcamento.php?id=7" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/07.jpg" width="94" height="90" border="0" /> 07</a></p></td>
+            <td width="129"><p><a href="orcamento.php?id=17" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/17.jpg" width="97" height="90" border="0" /> 17</a></p></td>
+            <td width="128"><p><a href="orcamento.php?id=18" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/18.jpg" width="96" height="90" border="0" /> 18</a></p></td>
+            <td width="126"><p><a href="orcamento.php?id=21" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/21.jpg" width="93" height="90" border="0" /> 21</a></p></td>
+            <td width="144"><p><a href="orcamento.php?id=23" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/23.jpg" width="101" height="90" border="0" /> 23</a></p></td>
+          </tr>
+          <tr>
+            <td height="118"><p><a href="orcamento.php?id=25" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/25.jpg" width="100" height="90" border="0" /> 25</a></p></td>
+            <td><p><a href="orcamento.php?id=28" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/28.jpg" width="92" height="90" border="0" /> 28</a></p></td>
+            <td><p><a href="orcamento.php?id=32" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/32.jpg" width="88" height="90" border="0" /> 32</a></p></td>
+            <td><p><a href="orcamento.php?id=60" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/60.jpg" width="94" height="90" border="0" /> 60</a></p></td>
+            <td><p><a href="orcamento.php?id=83" rel="shadowbox;width=550;height=400"><img src="imagens/gesso/molduras/plus/83.jpg" width="115" height="80" border="0" /> 83</a></p></td>
+          </tr>
+        </table>
+		<p id="sub-menu"><a href="gesso.php">Gesso</a> | Molduras | <a href="cordoes.php">Cord&otilde;es</a> | <a href="decorativos.php">Decorativos</a> | <a href="vitrais.php">Vitrais</a></p>
+        <p id="topo"><a href="#top">Topo /\</a><br />
+        </p>
+</div>
+      <div id="rodape">
+        <p><strong>Servi&ccedil;os RN </strong><br />
+          Gesso | Pintura| Eletricista | Hidraulica | Restaura&ccedil;&atilde;o de Portas e Janelas<br />
+Telefones (11)   4997-4629 - (11)9465-1560</p>
+      </div>
+    </div></td>
+  </tr>
+</table>
+<script type="text/javascript">
+<!--
+swfobject.registerObject("FlashID");
+//-->
+</script>
+<p id="sobre">&copy; 2009 <a href="sobre.html" target="popupwindow" onclick='window.open("sobre.html", "popupwindow", "scrollbars=yes,width=590,height=360");return true'>Cesar Augusto</a> - Todos os direitos reservados</p>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("barra_menu", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>

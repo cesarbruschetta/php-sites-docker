@@ -1,0 +1,193 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	background-image: url(../imagens/background.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#conteudo_principal {
+	width: 970px;
+	float: left;
+	border: 2px dashed #0D2139;
+}
+#conteudo_principal #header {
+	float: left;
+	height: 70px;
+	width: 970px;
+}
+#conteudo_principal #menu {
+	float: left;
+	width: 970px;
+	height: 50px;
+	margin-bottom: 10px;
+	background-image: url(../imagens/menu.jpg);
+	background-repeat: no-repeat;
+}
+#conteudo_principal #menu ul {
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#conteudo_principal #menu li {
+	list-style-type: none;
+	float: left;
+	margin-left: 0px;
+	list-style-position: outside;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000000;
+}
+#conteudo_principal #menu a {
+	color: #000000;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	float: left;
+}
+#conteudo_principal #menu #barra_01 a {
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+}
+#conteudo_principal  #menu  #barra_01 a:hover {
+	margin-left:-10px;
+	
+}
+
+#conteudo_principal #banner {
+	float: left;
+	height: 310px;
+	width: 970px;
+	margin-bottom: 30px;
+}
+
+#conteudo_principal #conteudo {
+	float: left;
+	width: 530px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+}
+#conteudo_principal #conteudo2 {
+	float: left;
+	width: 440px;
+}
+#header h1{
+	color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+#header span{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#conteudo h1{
+	color: #0153b4;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 30px;
+	border-bottom-style: dashed;
+	border-bottom-color: #cccccc;
+	border-bottom-width: thin;
+}
+
+#conteudo span{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-variant: normal;
+	clear: both;
+	float: left;
+	margin-top: 4px;
+}
+#conteudo h2, #conteudo2 h2{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #0153b4;
+	text-transform: uppercase;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #ccc;
+	font-size: 20px;
+}
+#conteudo span{
+	font-weight: normal;
+	font-size: 10px;
+}
+#conteudo h3{
+	color: #0153b4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+#conteudo_principal #conteudo2 #boxes {
+	float: left;
+	width: 200px;
+	background-image: url(../imagens/top_conteudo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+#boxes h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 13px;
+	margin-left: 10px;
+	margin-bottom: 12px;
+}
+#conteudo_principal #conteudo2 #boxes #boxes_borda {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	width: 178px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+}
+#conteudo_principal #conteudo img {
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+#conteudo_principal #rodape {
+	float: left;
+	height: 100px;
+	width: 970px;
+	margin-top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	padding-top: 25px;
+	font-weight: normal;
+	text-align: center;
+}
+#conteudo_principal #rodape #sobre a {
+	color: #00C;
+	text-decoration: underline;
+}

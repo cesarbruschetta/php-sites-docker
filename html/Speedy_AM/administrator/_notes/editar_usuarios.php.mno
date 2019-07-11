@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_ListaUsuarios" value="name:usu_id;datatype:int,name:usu_nome;datatype:string,name:usu_email;datatype:string,name:usu_nivel;datatype:int,name:usu_status;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RS_ListaMensagens" value="name:men_id;datatype:int,name:men_nome;datatype:string,name:men_telefone;datatype:string,name:men_email;datatype:string,name:men_assunto;datatype:string,name:men_mensagem;datatype:blob,name:men_data;datatype:date" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_EditarPagina" value="name:pag_id;datatype:int,name:pag_nome;datatype:string,name:pag_status;datatype:string,name:pag_titulo;datatype:string,name:pag_conteudo;datatype:blob,name:pag_data;datatype:date" />
+	<infoitem key="UD_Rs_PaginaEditar" value="name:pag_id;datatype:int,name:pag_nome;datatype:string,name:pag_status;datatype:string,name:pag_titulo;datatype:string,name:pag_conteudo;datatype:blob" />
+</info>

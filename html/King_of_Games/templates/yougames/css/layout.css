@@ -1,0 +1,208 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Copyright ©2006-2009 Youjoomla LLC. All Rights Reserved.           ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| # ---------------- THIS IS NOT FREE SOFTWARE ---------------- #      ||
+|| # http://www.youjoomla.com | http://www.youjoomla.com/license.html # ||
+|| #################################################################### ||
+\*======================================================================*/
+#fullbg{height:100%; width:100%; clear:both}
+#centertop{text-align:left; margin:0 auto}
+#centerbottom{text-align:left; margin:0 auto; overflow:hidden}
+#header{text-align:left; height:75px; position:relative}
+
+#logo{height:75px; width:375px; float:left; text-align:left; position:absolute; top:0; z-index:1}
+#cpanel_w{height:43px; float:right; position:absolute; text-align:left; bottom:0; left:335px; display:block; padding:0 0 0 40px; line-height:35px; color:#fff; font-size:11px; overflow:hidden; border-top:1px solid #252525; border-right:1px solid #252525}
+#cpanel_w a, #cpanel_n a{padding:0 25px 0 25px}
+#cpanel_n{height:43px; float:right; position:absolute; text-align:left; bottom:0; left:335px; display:block; padding:0 0 0 40px; line-height:35px; color:#fff; font-size:11px; overflow:hidden; border-top:1px solid #252525; border-right:1px solid #252525}
+#tags h1 a{text-indent:-7500px; display:block; width:375px; height:75px; text-decoration:none}
+#tags{width:375px; height:75px; float:left; overflow:hidden; margin:0; padding:0}
+
+.search_blank, 
+.search{width:265px; height:60px; margin:0 auto; text-align:center; position:relative}
+.search_blank .inputbox_blank, 
+.search .inputbox{width:190px; margin:20px 0 0 15px; float:left; height:22px; padding:3px 0px 0 0px; text-align:center; line-height:24px; border:0}
+.search_blank .button_blank, 
+.search .button{margin:0; padding:0; position:absolute; top:15px; right:12px; height:32px; width:36px; display:block; text-indent:-7500px; background:none; border:none; line-height:7500px; cursor:pointer}
+#tools{font-size:10px; padding:5px; clear:both}
+#pathway{margin:8px 8px 0 8px; padding:3px 5px}
+
+#topmodule{margin:0 auto; text-align:left; overflow:hidden; margin-bottom:10px}
+
+#wrap, #wrapblank{width:100%; margin:0 auto; text-align:left; height:100% !Important; height:1%}
+#insidewrap, #insidewrapblank{height:100% !Important; height:1%}
+
+#holder{height:100% !Important; height:1%; overflow:hidden; margin:0 auto; text-align:center; margin:0 4px}
+#leftblock{float:left; height:100% !Important; height:1%; overflow:hidden; text-align:left}
+#midblock{float:left; height:100% !Important; height:1%; overflow:hidden; text-align:left}
+#rightblock{float:left; height:100% !Important; height:1%; overflow:hidden; text-align:left}
+
+.inside{padding:5px; overflow:hidden}
+
+.insidem{padding:5px}
+
+#bottommodule{margin:8px 0 4px 0; text-align:left; overflow:hidden}
+#bottommodule .yjsquare{margin:0!Important}
+#bottommodule .yjsquare_in{margin:0!Important}
+
+#footer_bg{height:100%; position:relative; width:100%; clear:both; padding:0 0 0px 0; margin:0}
+#footer{clear:both; text-align:center; overflow:hidden; margin:0 auto; padding:0 0 140px 0}
+#youjoomla{clear:both; text-align:left; padding:0px 0px; overflow:hidden}
+#cp{text-align:left; padding:2px 0px; overflow:hidden; width:100%; height:30px; margin:0; color:#fff}
+#cp a:link{padding:0 5px 0 5px}
+#validators{width:40%; float:right; text-align:right; height:30px; line-height:30px; display:block}
+#yjcp{float:left; text-align:left; width:60%; height:30px; line-height:30px; display:block}
+#footmod{clear:both; text-align:left; text-transform:uppercase; font-size:11px; font-weight:bold; padding:5px 0; margin:0px; color:#fff; overflow:hidden}
+
+.frontpage_default{background:#000; margin-top:5px; border:1px solid #252525; padding:0 5px}
+.componentheading_frontpage{display:block; height:27px; line-height:27px; margin:0px 0 -5px 0; color:#fff; font-size:14px; width:100%; padding:0 0 0 10px}
+.news_item_f{margin:0 5px; position:relative}
+.news_item_c{margin:0 5px; position:relative}
+.news_item_s{margin:0 5px; position:relative}
+.news_item_a{margin:0px 0px 0 0px!Important; background:none; padding:7px; overflow:hidden}
+.newsitem_tools{display:block; width:100%; margin:0 0 10px 0 !Important; overflow:hidden; clear:both}
+.newsitem_info{width:70%; display:block; height:10px; float:left}
+.buttonheading{width:30%; display:block; overflow:hidden; padding:0; float:right}
+.buttonheading img{border:0}
+.email, .print, .pdf{float:right; margin:0px 2px 0 0; width:16px}
+.createby{padding:0 3px 0 0px}
+.createdate{padding:0 3px 0 0px}
+.newsitem_section{padding:0 3px 0 0px}
+.newsitem_category{padding:0 3px 0 0px}
+.newsitem_section a{padding:0 3px 0 0px}
+.newsitem_category a{padding:0 3px 0 0px}
+.newsitems_link{}
+.newsitem_text{width:100%; display:block; padding:0px 0 0 0 !Important}
+.modifydate{width:100%; display:block; margin:10px 0; height:10px; clear:both}
+.news_item_a .modifydate{width:100%; display:block; margin:30px 0 0 0; height:10px; clear:both}
+.fptops{position:relative}
+.news_item_article{padding:0px 0 20px 0; margin:0 0 20px 0}
+
+a.category:link, 
+a.category:visited, 
+a.category:focus{font-weight:bold; font-size:100%}
+.small{}
+
+ul.pagination{margin:15px auto 10px; padding:10px 0 0}
+ul.pagination li, 
+ul.pagination li:hover{background:none; display:inline; margin:3px; padding:0}
+ul.pagination li span{padding:2px 5px}
+ul.pagination a{padding:2px 3px; text-decoration:none}
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus{}
+.pagenavbar{font-weight:bold; padding-left:14px}
+.pagenavcounter{font-weight:bold; padding:8px 14px 0 14px}
+
+.yjsquare h3, 
+.yjsquare_yj1 h3, 
+.yjsquare_yj2 h3, 
+.yjsquare_blank h3{overflow:hidden; font-size:14px; padding:0 0 0 10px; margin:0px 0 0 0px; display:block; height:27px; width:auto; line-height:27px}
+.yjsquare h3 span, 
+.yjsquare_yj1 h3 span, 
+.yjsquare_yj2 h3 span, 
+.yjsquare_blank h3 span{overflow:hidden; display:block; width:auto; height:27px; line-height:27px; padding:0 5px 0 0px; float:left}
+.yjsquare p, 
+.yjsquare_yj1 p, 
+.yjsquare_yj2 p, 
+.yjsquare_blank p{overflow:hidden; padding:3px}
+.yjsquare_in, 
+.yjsquare_yj1 .yjsquare_in, 
+.yjsquare_yj2 .yjsquare_in, 
+.yjsquare_blank .yjsquare_in{overflow:hidden; padding:10px}
+.yjsquare, 
+.yjsquare_yj1, 
+.yjsquare_yj2, 
+.yjsquare_blank{margin:5px 0 15px 0px!Important; padding:0px; clear:both; display:block; height:100% !Important; height:1%; overflow:hidden}
+
+.yjsquare_blank{margin:5px 0 10px 0px!Important; padding:0px}
+.yjsquare_blank .yjsquare_in{overflow:hidden; padding:0px}
+
+#footmod .yjsquare{margin:3px auto; text-align:left; padding:3px 0; background:none; font-size:11px; overflow:hidden; width:99%}
+#footmod .yjsquare h3{margin:0; padding:0 4px; text-align:left; font-size:10px; border:none; text-transform:uppercase}
+#footmod .yjsquare h3 span{}
+#footmod li, #footmod li:hover{list-style-type:none; list-style-image:none; background:none}
+#footmod ul li{border:none; text-decoration:none; display:inline; margin-left:0; text-decoration:none; list-style-type:none; list-style-image:none}
+
+.pollbuttons{margin:0 auto; width:80%; text-align:center; height:30px}
+
+#modlgn_passwd, #modlgn_username{width:95%; height:19px; padding-left:3px; padding-top:3px}
+#component, #comreg, #comlogin{text-align:left; font-size:11px; font-weight:bold}
+#comlogin .inputbox{height:25px; width:98%; font:22px Verdana,Arial,Helvetica,sans-serif}
+#comlogin #com-form-login-remember{display:none}
+#comlogin img{display:none}
+
+#advert1{margin:0 8px; overflow:hidden}
+#advert1 .yjsquare{margin:8px 0 4px 0 !important}
+#advert1 .yjsquare_in{margin:0 !important}
+
+#topmods{margin:0 4px; overflow:hidden}
+#user1, #user2{float:left; clear:right; text-align:left}
+#topmods .yjsquare_in{margin:0 !important}
+#topmods .yjsquare{margin:8px 0 0px 0 !important}
+#topmods .inside{padding:0 5px}
+
+#botmods{margin:0px; overflow:hidden}
+#user3, #user4{float:left; clear:right; text-align:left}
+#botmods .yjsquare_in{margin:0 !important}
+#botmods .yjsquare{margin:8px 0 0px 0 !important}
+#botmods .inside1{padding:0 4px 0 4px}
+#botmods .inside{padding:0 0px 0 0}
+
+#bottom{margin:0px 8px 8px 8px; overflow:hidden; background:#070707; border:1px solid #252525; padding:0 5px 8px 5px; height:1% !important}
+#user5, #user6, #user7{float:left; clear:right; text-align:left}
+#bottom .yjsquare_in{margin:0 !important; border:0}
+#bottom .yjsquare{margin:8px 0 0px 0 !important; border:0}
+#bottom .yjsquare h3{background:none; text-transform:uppercase}
+#bottom .inside1{padding:0 5px 0 5px}
+#bottom li{display:block; height:31px; line-height:31px; width:100%; padding:0 0 0 20px; overflow:hidden}
+
+#openLogin, #openReg{display:inline-block; width:120px; height:44px; clear:right; text-indent:-7500px; border:0; text-decoration:none; margin:10px 3px}
+
+.yjns_rm{margin:7px 0 0 0}
+.yjnewsflash{border:0}
+.nfimgpos img{margin:0 0 10px 0; padding:0; border:0; background:none}
+.yjnewsflash_title{margin:0px 3px; overflow:hidden}
+.yjnf_descr{line-height:16px; margin:0px 0 0 0}
+.yjns_rm{display:block; border:0; height:23px; padding:0 0px; width:93px}
+
+.yjnf4 .yjnewsflash{border:none; background:url(../images/yjnf4bottom.gif) no-repeat center bottom}
+
+.yjnf4 .yjns_rm{border:none; width:93px; padding:0; height:23px; line-height:23px; font-weight:bold}
+
+.yjnf4 .yjnewsflash img{padding:3px; margin:0px 5px 0px 0px}
+
+.pagination_yjn, .pagination_yjn_on{text-decoration:none; font-weight:bold; cursor:pointer; width:42px; height:41px; display:inline-block; line-height:41px; font-size:18px; text-align:center}
+
+.yjnf4 .yjnewsflash_title{margin:0px 0px}
+
+a.readmore-link{clear:both; height:23px; line-height:23px; display:inline-block; clear:both; text-align:center; width:93px; padding:0 0 0 0px; margin:10px 0 0 0}
+a.comment-link{clear:both; height:23px; line-height:23px; display:inline-block; clear:both; text-align:center; width:93px; padding:0 0 0 0px; margin:10px 0 0 0}
+#jc h4{border-bottom:1px solid #252525}
+#comments div.comments-list{margin-left:0px; height:1%; clear:both}
+#comments-form input, #comments-form textarea{color:#808080; background-color:#151515; padding:0; border:1px solid #252525}
+#comments-form .counterpanel{height:13px; display:block; overflow:hidden; color:#808080; padding:0; margin:0; border:1px solid #252525; border-top-width:0; max-width:400px !important; width:350px; background-color:#151515}
+#comments-form .smilespanel{display:none; cursor:pointer; padding:2px; width:200px; height:50px; background-color:#151515; border:1px solid #252525; overflow:auto; left:0px; top:0px}
+#comments-footer, #comments-footer a{color:#808080; background-color:inherit; font:normal 9px Verdana,Arial,Sans-Serif}
+#comments-footer{clear:both; display:block; height:14px; border-top:1px solid #151515; padding-top:1px; margin-top:4px; text-align:right}
+#jc #nav-bottom span.page, #jc #nav-top span.page{color:#808080; background-color:#151515; border:1px solid #252525}
+#comments-form .grippie{height:13px; display:block; overflow:hidden; color:#808080; padding:0; margin:0; border:1px solid #252525; border-top-width:0; max-width:400px !important; width:350px; cursor:s-resize; background:#151515 url(../images/resize.gif) no-repeat right center}
+#jc .busy{display:none; margin:3px auto; padding:0; width:16px; height:16px; background:#151515 url(../images/loader.gif) no-repeat}
+#comments a.refresh{background:url(../images/jc_refreshg.gif) no-repeat center left}
+#comments a.rss{background:url(../images/jc_rss.gif) no-repeat center left}
+#comments-form input.selected, #comments-form textarea.selected{color:#777; background-color:#2A2A2A; border:1px solid #000}
+.comments-form-message-info{background:#2A2A2A url(../images/info.gif) no-repeat 4px 50%; border:1px solid #000}
+
+#comments span.quote, #comments blockquote{margin:5px 0 5px 10px; display:block; clear:both}
+#comments blockquote, #comments span.hidden{color:#808080; background-color:inherit; text-align:left; padding:8px; border:1px dashed #808080; margin-bottom:8px}
+
+.rbox{margin:0; width:auto; border:1px solid #2a2a2a}
+.rbox div{text-align:left; margin:0px}
+.rbox_t{margin:0; border-top:0px solid #ccc; background:#212121}
+.rbox_tl{background:#212121; padding-left:13px}
+.rbox_tr{height:10px; overflow:hidden; background:#212121; padding-right:13px}
+.rbox_m{border-left:0px solid #ccc; border-right:0px solid #ccc; width:auto; padding:1px 8px; background:#212121; line-height:100%}
+.rbox_b{margin-top:-5px; border-bottom:0px solid #ccc; background:#212121; height:12px; line-height:12px}
+.rbox_bl{background:#212121; padding-left:13px}
+.rbox_br{height:13px; background:#212121; padding-right:13px}
+#comments span.comment-date{font-size:10px; color:#999; margin:0; padding:0 0 0 12px; background:none}
+#comments a{color:#dddbdb; background-color:inherit; font-weight:normal; text-decoration:none}
+#comments a{color:#dddbdb; background-color:inherit; font-weight:normal; text-decoration:none}

@@ -1,0 +1,201 @@
+/* MAIN MENU
+----------------------------------------------------------- */
+
+#s5_navv a {
+     font-family: Helvetica,Arial,sans-serif;
+     font-weight: bold;
+     font-size: 0.75em;
+     text-decoration: none;
+     padding-left: 11px;
+     padding-right: 11px;
+     float: left;
+     display: block;
+     cursor: pointer;
+     height: 30px;
+     line-height: 29px;
+     overflow: hidden; }
+
+
+#s5_navv li li {
+     text-align: left;
+     width: 166px; }
+
+* html #s5_navv li li {
+     width: 170px; }
+
+#s5_navv ul li ul li a {
+     font-family: Helvetica,Arial,sans-serif;
+     font-size: 0.7em; 
+     font-weight: bold; }
+
+#s5_navv ul li ul li a:hover {
+     position: relative;
+     text-decoration: underline; }
+
+#s5_navv ul li a {
+    background: none; } 
+
+#s5_navv ul li a:hover {
+    text-decoration: underline;
+    background: url('../images/s5_menu_hover.png') repeat scroll 0%; }   
+
+#s5_navv ul li li.lastitem a:hover {
+    text-decoration: underline;
+    background: #000000; } 
+
+#s5_navv ul li li a {
+    background: url('../images/s5_opac90.png') repeat scroll 0%; }  
+
+#s5_navv ul li a.parent {
+    background: url('../images/s5_menu_parent.png') repeat scroll 0%; }
+
+#s5_navv ul li a.parent:hover {
+    background: #000000 url('../images/s5_menu_parent.png') repeat scroll 0%; }
+
+#s5_navv ul li a.sub:hover {
+    background: #000000 }
+
+#s5_navv ul li a.active:hover {
+     text-decoration: underline; }
+
+#s5_navv ul li a.active {    
+     font-size: 0.75em;
+     background: url('../images/s5_menu_act.png') repeat scroll 0%;
+     font-weight: bold; }
+
+#s5_navv {
+     height: 30px;
+     width: 905px;
+     background: url('../images/s5_menu_bg.png') repeat scroll 0%;
+     font-family: Arial;
+     z-index: 1;
+}
+
+#s5_navv li li a{
+	background: none;
+	font-weight: normal;
+	padding: 0;
+	text-indent: 15px;
+        z-index: 1;
+}
+
+#s5_navv, #s5_navv ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+        margin-left: 15px;
+	padding: 0;
+}
+
+* html #s5_navv, #s5_navv ul {
+        margin-left: 8px;
+}
+
+#s5_navv li li {
+	padding: 0;
+	background: none;
+}
+
+#s5_navv ul ul a {
+	display: block;
+	text-decoration: none;
+	width: 165px;
+	text-transform: none;
+        z-index: 1;
+}
+
+* html #s5_navv ul ul a {
+	width: 166px;
+}
+
+#s5_navv li {
+    float: left;
+    padding: 0;
+    background: none;
+    height: 30px;
+    z-index: 1;
+}
+
+#s5_navv ul li {
+    position: relative;
+    z-index: 1;
+}
+
+#s5_navv li ul {
+	top: 30px;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 169px;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+        z-index: 1;
+}
+
+#s5_navv li ul a {
+	font-weight: bold;
+        z-index: 1;
+}
+	
+#s5_navv ul {
+	padding: 0;
+	margin: 0;
+        z-index: 1;
+}
+
+#s5_navv li ul ul {
+	margin: -25px 0 0 166px;
+        z-index: 1;
+}
+
+* html #s5_navv li ul ul {
+	margin: -25px 0 0 168px;
+        z-index: 1;
+}
+
+#s5_navv li:hover ul ul, 
+#s5_navv li:hover ul ul ul,
+#s5_navv li:hover ul ul ul ul,  
+#s5_navv li.sfhover ul ul, 
+#s5_navv li.sfhover ul ul ul, 
+#s5_navv li.sfhover ul ul ul ul {
+	left: -999em;
+        z-index: 1;
+}
+
+#s5_navv li:hover ul, 
+#s5_navv li li:hover ul, 
+#s5_navv li li li:hover ul, 
+#s5_navv li li li li:hover ul,
+#s5_navv li.sfhover ul, 
+#s5_navv li li.sfhover ul, 
+#s5_navv li li li.sfhover ul,
+#s5_navv li li li li.sfhover ul{
+	left: 0;
+        position: absolute;
+        z-index: 1;
+}
+
+
+#s5_navv li:hover ul, #s5_navv li.sfhover ul {
+left: 0;
+background-position: 0 0;
+}
+
+#s5_navv ul li:hover a.main, #s5_navv ul li.sfhover a.main {
+     text-decoration: underline;
+}
+
+#s5_navv ul li:hover, #s5_navv ul li.sfhover {
+     background: url('../images/s5_menu_main_hover.gif') repeat-x;
+}
+
+#s5_navv ul li li:hover, #s5_navv ul li li.sfhover {
+     background: none;
+}
+
+#s5_navv ul li li a {
+	background: url('../images/s5_menu_subs.png') repeat scroll 0%;
+        border-bottom: groove 1px #cccccc;
+}

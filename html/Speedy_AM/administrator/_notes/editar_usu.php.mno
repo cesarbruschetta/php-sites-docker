@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_ListaUsuarios" value="name:usu_id;datatype:int,name:usu_nome;datatype:string,name:usu_email;datatype:string,name:usu_login;datatype:string,name:usu_senha;datatype:string,name:usu_nivel;datatype:int,name:usu_status;datatype:int" />
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_Rs_VerificaLogin" value="name:usu_nome;datatype:string,name:usu_login;datatype:string" />
+	<infoitem key="MMGuideCount" value="2" />
+	<infoitem key="MMGuide0" value="horizontal: user 17 px" />
+	<infoitem key="MMGuide1" value="horizontal: user 444 px" />
+</info>

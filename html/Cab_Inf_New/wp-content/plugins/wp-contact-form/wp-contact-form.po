@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: wp-contact-form-3.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-03-02 18:25+0100\n"
+"Last-Translator: Sebastian Kraft <kraft.sebastian@gmail.com>\n"
+"Language-Team: Sebastian Kraft <kraft.sebastian@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form\n"
+"X-Poedit-SearchPath-0: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form\n"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:28
+msgid "Contact Form Results"
+msgstr "Ergebnisse"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:30
+msgid "Contact Form"
+msgstr "Kontaktformular"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:31
+msgid "TRUE"
+msgstr "WAHR"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:32
+msgid "Thanks for your comments!"
+msgstr "Danke f&uuml;r deinen Kommentar!"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:33
+msgid "Please fill in the required fields"
+msgstr "ben&ouml;tigte Felder"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:34
+msgid "2 + 2 ="
+msgstr "2 + 2 ="
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:35
+msgid "4"
+msgstr "4"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:36
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:37
+msgid "FALSE"
+msgstr "FALSCH"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:87
+msgid "Contact Form Options"
+msgstr "Einstellungen"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:92
+msgid "E-mail Address:"
+msgstr "E-Mail Adresse:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:94
+msgid "This address is where the email will be sent to. Multiple recipients can be separated by a comma."
+msgstr "E-Mail Adresse des Empfängers. Mehrere Empfänger k&ouml;nnen,  getrennt durch Kommata, angeben werden."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:97
+msgid "Legend:"
+msgstr "&Uuml;berschrift:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:99
+msgid "This is a legend for your contact form.  If you do not wish to have a legend, just leave it blank."
+msgstr "Dies ist die &Uuml;berschrift f&uuml;r das Kontaktformular. Wenn du keine m&ouml;chtest, lass das Feld einfach leer."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:102
+msgid "Subject Line:"
+msgstr "Betreff:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:104
+msgid "If you would like a list box to select an option from on the form, input your information delimited by a \"|\" (example: Website | Plugin | Help)"
+msgstr "Wenn du eine Auswahlliste f&uuml;r den Betreff benutzen m&ouml;chtest, trage die Auswahlm&ouml;glichkeiten getrennt durch \"|\" ein. (Beispiel: Webseite | Plugin | Hilfe)"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:106
+msgid "Check this box to allow users to include a Subject line.  It will be concatenated to your default subject line."
+msgstr "Aktiviere diese Option wenn du Benutzern erlauben m&ouml;chtest einen eigenen Betreff anzugeben. Dieser Betreff wird dann an die Listenauswahl angehangen."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:107
+msgid "This will be the subject of the email."
+msgstr "Dies ist der Betreff der E-Mail."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:110
+msgid "Challenge Question"
+msgstr "Sicherheitsfrage"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:113
+msgid "What is your challenge question?"
+msgstr "Wie soll die Sicherheitsfrage lauten?"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:115
+msgid "This is a question asked to the contact form user to see if they are human."
+msgstr "Diese Frage wird dem Benutzer des Kontaktformulars gestellt um zu pr&uuml;fen ob es sich um einen Menschen handelt."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:118
+msgid "Correct response:"
+msgstr "Korrekte Antwort:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:120
+msgid "This is the exact response to the challenge question."
+msgstr "Dies ist die genaue Antwort auf die Sicherheitsfrage."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:122
+msgid "Check this box if you don&acute;t care if the user types the response with the correct case sensitivity."
+msgstr "Aktiviere diese Option, wenn die Antwort trotz falscher Gro&szlig;-/ Kleinschreibung akzeptiert werden soll."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:125
+msgid "Messages"
+msgstr "Meldungen"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:128
+msgid "Success Message:"
+msgstr "Best&auml;tigung:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:130
+msgid "When the form is sucessfully submitted, this is the message the user will see."
+msgstr "Diese Meldung wird angezeigt, wenn die Nachricht erfolgreich verschickt wurde."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:133
+msgid "Error Message:"
+msgstr "Fehlermeldung:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:135
+msgid "If the user skips a required field, this is the message he will see."
+msgstr "Diese Meldung wird angezeigt, wenn vergessen wurde ein ben&ouml;tigtes Feld auszuf&uuml;llen."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:136
+msgid "You can apply CSS to this text by wrapping it in <code>&lt;p style=\"[your CSS here]\"&gt; &lt;/p&gt;</code>."
+msgstr "CSS kann durch Umschlie&szlig;en des Textes mit folgendem Code <code>&lt;p style=\"[Layout-Angaben]\"&gt; &lt;/p&gt;</code> hinzugef&uuml;gt werden."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:137
+msgid "ie. <code>&lt;p style=\"color:red;\"&gt;Please fill in the required fields.&lt;/p&gt;</code>."
+msgstr "z.B. <code>&lt;p style=\"color:red;\"&gt;Bitte f&uuml;llen Sie die ben&ouml;tigten Felder aus.&lt;/p&gt;</code>"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:140
+msgid "Style:"
+msgstr "Layout:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:143
+msgid "This styles the form so that it's tableless and uses CSS only. If you have WP-Cache loaded, be sure to clear your cache after making changes."
+msgstr "Dadurch wird CSS f&uuml;r das Kontaktformular verwendet und keine Tabellen. Wenn du den Zwischenspeicher von Wordpress aktiviert hast, vergiss nicht, ihn nach &Auml;nderungen zu leeren. "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:154
+msgid "Copy Option:"
+msgstr "Kopie:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:155
+msgid "Add a checkbox to the form so the user can copy themselves on the email sent."
+msgstr "F&uuml;ge dem Formular eine Auswahlbox hinzu, die dem Benutzer erm&ouml;glicht sich selbst eine Kopie zu schicken."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:159
+msgid "Reset Style"
+msgstr "Layout zur&uuml;cksetzen"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:159
+msgid "Update Options"
+msgstr "Einstellungen aktualisieren"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:164
+msgid "Instructions"
+msgstr "Anleitung"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:165
+#, php-format
+msgid ""
+"Simply place %%wpcontactform%% in the text editor where you would like your Contact Form to be displayed.<br />\n"
+"\t\tIf you&acute;d like to put the plugin in your template, utilize the following code:"
+msgstr ""
+"F&uuml;ge einfach %%wpcontactform%% an die Stelle in einem Beitrag ein, an der das Formular eingebunden werden soll.<br />\n"
+"\t\tWenn du das Formular direkt in einer Template-Datei verwenden m&ouml;chtest, kannst du es mit folgendem Code einbinden:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:168
+msgid "Need something more robust?  I&acute;d recommend"
+msgstr "Ben&ouml;tigst du etwas robusteres? Dann empfehle ich dir"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:169
+msgid "If you like this plugin, I would appreciate your support.  You can:"
+msgstr "Wenn dir diese Erweiterung gef&auml;llt und du mir ein wenig helfen m&ouml;chtest, kannst du das gerne auf folgende Arten:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:170
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:171
+msgid "Add The Marketing Technology Blog"
+msgstr "F&uuml;ge The Marketing Technology Blog"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:171
+msgid "to your Technorati Favorites!"
+msgstr "zu deinen Technorati Favoriten hinzu! "
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:172
+msgid "to your Feed Reader."
+msgstr "deinem Feed-Reader hinzu."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:173
+msgid "Read The Marketing Technology Blog"
+msgstr "Lese The Marketing Technology Blog"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:173
+msgid "as often as you can!"
+msgstr "so oft du kannst!"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:174
+msgid "Or you can send me a few bucks via PayPal."
+msgstr "Oder du kannst mir etwas &uuml;ber PayPal zukommen lassen."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:183
+msgid "Thanks for all your support!  Please don&acute;t hesitate to"
+msgstr "Danke f&uuml;r deine Unterst&uuml;tzung! Z&ouml;gere nicht,"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:183
+msgid "contact me"
+msgstr "kontaktiere mich"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:183
+msgid "if you find a problem or bug."
+msgstr "wenn du ein Problem oder Fehler findest."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/options-contactform.php:183
+msgid "Regards,"
+msgstr "Gr&uuml;&szlig;e,"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:89
+msgid "You can not use any of the following in the Name or Email fields: a linebreak, or the phrases &acute;mime-version&acute;,&acute;content-type&acute;,&acute;cc:&acute; or &acute;to:&acute;"
+msgstr "Folgende Eingaben d&uuml;rfen nicht in den Feldern f&uuml;r E-Mail und Name verwendet werden: ein Zeilenumbruch, &acute;mime-version&acute;,&acute;content-type&acute;,&acute;cc:&acute; oder &acute;to:&acute;"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:95
+msgid "You answered the challenge question incorrectly."
+msgstr "Deine Antwort auf die Frage war nicht korrekt."
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:150
+msgid "Your Name:"
+msgstr "Name:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:152
+msgid "Your Email:"
+msgstr "E-Mail:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:154
+msgid "Challenge:"
+msgstr "Frage:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:155
+msgid "Answer:"
+msgstr "Antwort:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:157
+msgid "Your Website:"
+msgstr "Webseite:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:159
+msgid "Subject:"
+msgstr "Betreff:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:178
+msgid "Your Message:"
+msgstr "Nachricht:"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:181
+msgid "Copy"
+msgstr "Kopie"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:182
+msgid "Send me a copy"
+msgstr "Sende eine Kopie an mich"
+
+#: /opt/lampp/htdocs/wordpress/wp-content/plugins/wp-contact-form/wp-contactform.php:184
+msgid "Submit"
+msgstr "Senden"
+

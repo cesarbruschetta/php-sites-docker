@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_menu" value="name:pag_conteudo;datatype:blob" />
+	<infoitem key="UD_Rs_conteudo" value="name:pag_id;datatype:int,name:pag_status;datatype:string,name:pag_titulo;datatype:string,name:pag_conteudo;datatype:blob" />
+</info>

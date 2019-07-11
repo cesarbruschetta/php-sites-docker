@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_testeUsuario" value="name:usu_nome;datatype:string,name:usu_login;datatype:string" />
+</info>

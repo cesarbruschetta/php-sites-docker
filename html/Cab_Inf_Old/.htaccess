@@ -1,0 +1,2 @@
+ErrorDocument 403 http://cabinformatica.com/403.html
+ErrorDocument 404 http://cabinformatica.com/404.html

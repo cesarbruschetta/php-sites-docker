@@ -1,0 +1,35 @@
+/* begin Menu */
+.nav .r
+{
+	clip: rect(auto auto auto 866px);
+}
+/* end Menu */
+
+/* begin MenuItem */
+.artmenu a .r
+{
+	clip: rect(auto auto auto 404px);
+}
+/* end MenuItem */
+
+/* begin BlockHeader */
+.BlockHeader .r
+{
+	clip: rect(auto auto auto 879px);
+}
+/* end BlockHeader */
+
+/* begin PostContent */
+.PostContent
+{
+	height:1%;
+}
+/* end PostContent */
+
+/* begin Button */
+.Button .btn .r
+{
+	clip: rect(auto auto auto 399px);
+}
+/* end Button */
+

@@ -1,0 +1,154 @@
+body {
+	background-color: #505050;
+	background-image: url(images/bg.png);
+}
+#all {
+	margin: 0px;
+	width: 770px;
+	background-color: #FFF;
+}
+#all #cabecalho {
+	margin: 0px;
+	width: 770px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-color: #4579AD;
+	background-image: url(images/template_header_bg_02.png);
+}
+#all #banner {
+	width: 770px;
+	background-color: #1D485B;
+}
+#all #conteudo_all {
+	width: 765px;
+	margin: 0px;
+	background-color: #FFF;
+}
+#all #conteudo_all h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	color: #4895c8;
+}
+#all #conteudo_all #conteudo h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #00F;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+#all #conteudo_all #conteudo {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#all #conteudo_all #conteudo p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-align: justify;
+}
+#all #conteudo_all #conteudo img  {
+	margin: 5px;
+	float: left;
+}
+#all #conteudo_all #conteudo a  img{
+	margin: 9px;
+	float: left;
+}
+#all #conteudo_all #conteudo p #img2{
+	margin: 10px;
+	float: right;
+}
+#all #conteudo_all #conteudo p em{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #000;
+	font-style: italic;
+	font-weight: bolder;
+	text-align: center;
+}
+#all #conteudo_all #conteudo #Accordion1 .AccordionPanel.AccordionPanelOpen .AccordionPanelContent ul li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-align: justify;
+	margin-top: 10px;
+	list-style-type: square;
+	list-style-position: inside;
+	margin-left: -25px;
+}
+
+
+
+#all #conteudo_all #conteudo #form1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+}
+#all #conteudo_all #conteudo #envio{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+}
+#all #conteudo_all #conteudo #envio a{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+}
+
+
+
+#all #conteudo #topo a    {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #03F;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#all #rodape {
+	clear: both;
+	height: 40px;
+	background: url(images/templatemo_footer.jpg) repeat-x;
+	width: 770px;
+	margin: 0;
+}
+
+#all #rodape #rodape_texto{
+	text-align: center;
+	color: #CCC;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	width: 770px;
+	clear: both;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+#all #rodape a{
+	color: #FFF;
+	font-weight: bold;
+}
+/* end of footer */
+}
+body table tr td samp {
+	margin: 0px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}

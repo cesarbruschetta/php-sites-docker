@@ -1,0 +1,25 @@
+/**
+ * @package   Dominion Template - RocketTheme
+ * @version   1.5.0 January 1, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+.menu-type-splitmenu #rt-menu .menutop {padding: 0 10px;}
+.menu-type-splitmenu #rt-menu li a {color: #fff;}
+.menu-type-splitmenu #rt-menu li a:hover {color: #fff;}
+.menu-type-splitmenu #rt-menu li a:hover, .menu-type-splitmenu #rt-menu li.active a {background: #390D0B;border: none;}
+.menu-type-splitmenu #rt-menu li a:hover span, .menu-type-splitmenu #rt-menu li.active a span {border: none;}
+.menu-type-splitmenu #rt-menu li.active a {color: #fff;}
+
+.menu-type-suckerfishmenu #rt-menu .menutop {padding: 0 10px;}
+.menu-type-suckerfishmenu #rt-menu li a {color: #fff;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover a {color: #fff;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover a, .menu-type-suckerfishmenu #rt-menu li#current a {background: #390D0B;border: none;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover a span, .menu-type-suckerfishmenu #rt-menu li#current a span {border: none;}
+.menu-type-suckerfishmenu #rt-menu li#current a {color: #fff;}
+.menu-type-suckerfishmenu #rt-menu li ul {background: #390D0B;}
+.menu-type-suckerfishmenu #rt-menu ul ul li .item:hover {background: #cc0000;}
+.menu-type-suckerfishmenu #rt-menu ul ul li .daddy:hover {background: #cc0000;}
+.menu-type-suckerfishmenu #rt-menu li.sfHover li .item {color: #fff;}
+.menu-type-suckerfishmenu #rt-menu li li .daddy span {background: url(../images/menus/style1/topmenu-daddy.png) 100% 50% no-repeat !important;}

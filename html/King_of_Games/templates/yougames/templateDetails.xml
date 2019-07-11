@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>Yougames</name>
+	<creationDate>5-28-09</creationDate>
+	<author>Youjoomla LLC</author>
+	<copyright>Youjoomla LLC</copyright>
+	<authorEmail>youjoomlallc@gmail.com</authorEmail>
+	<authorUrl>www.youjoomla.com</authorUrl>
+	<version>1.0</version>
+	<description>Yougames  Joomla Template by Youjoomla.com. Unique layout options and color variations.
+		<![CDATA[
+			<h1>Yougames  Template by Youjoomla.com</h1>
+
+			<img src="../templates/yougames/images/logotm.jpg" /><br />Realtor Joomla  Template by Youjoomla.com.   This  template is for Youjoomla Joomla Template Club customers only. <a href="http://www.youjoomla.com">Youjoomla Temlplates Club</a> home page.
+<br></br>
+			
+			<b>Version 1.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]></description>
+	  <languages>
+            <language tag="en-GB">en-GB.tpl_yougames.ini</language>
+      </languages>
+	<files>
+		<filename>comlogin.php</filename>
+		<filename>component.php</filename>
+		<filename>comreg.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>head.php</filename>
+		<filename>index.php</filename>
+		<filename>links.php</filename>
+		<filename>params.ini</filename>
+		<filename>styleswitcher.php</filename>
+		<filename>css/iepngfix.htc</filename>
+		<filename>css/ifie.php</filename>
+		<filename>css/index.html</filename>
+		<filename>css/nocompress/index.html</filename>
+		<filename>css/acreed.php</filename>
+		<filename>css/hulk.php</filename>
+		<filename>css/layout.php</filename>
+		<filename>css/menus.php</filename>
+		<filename>css/spiderman.php</filename>
+		<filename>css/template.php</filename>
+		<filename>css/venom.php</filename>
+		<filename>css/typo.php</filename>
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/pagination.php</filename>
+		<filename>html/com_content/index.html</filename>
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/article/index.html</filename>
+		<filename>html/com_content/category/blog_item.php</filename>
+		<filename>html/com_content/category/index.html</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/com_content/section/blog_item.php</filename>
+		<filename>html/com_content/section/index.html</filename>
+		<filename>html/com_user/index.html</filename>
+		<filename>html/com_user/login/default_login.php</filename>
+		<filename>html/com_user/login/index.html</filename>
+		<filename>html/com_user/register/default.php</filename>
+		<filename>html/com_user/register/index.html</filename>
+		<filename>html/com_user/remind/default.php</filename>
+		<filename>html/com_user/remind/index.html</filename>
+		<filename>html/com_user/reset/complete.php</filename>
+		<filename>html/com_user/reset/confirm.php</filename>
+		<filename>html/com_user/reset/default.php</filename>
+		<filename>html/com_user/reset/index.html</filename>
+		<filename>html/com_user/user/default.php</filename>
+		<filename>html/com_user/user/form.php</filename>
+		<filename>html/com_user/user/index.html</filename>
+		<filename>html/mod_mainmenu/default.php</filename>
+		<filename>html/mod_mainmenu/index.html</filename>
+		<filename>html/mod_poll/default.php</filename>
+		<filename>html/mod_poll/index.html</filename>
+		<filename>html/mod_search/default.php</filename>
+		<filename>html/mod_search/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>images/acreed/index.html</filename>
+		<filename>images/acreed/topmenu/index.html</filename>
+		<filename>images/hulk/index.html</filename>
+		<filename>images/hulk/topmenu/index.html</filename>
+		<filename>images/spiderman/index.html</filename>
+		<filename>images/spiderman/topmenu/index.html</filename>
+		<filename>images/typ/index.html</filename>
+		<filename>images/venom/index.html</filename>
+		<filename>images/venom/topmenu/index.html</filename>
+		<filename>src/dropd.js</filename>
+		<filename>src/index.html</filename>
+		<filename>src/mouseover_d.js</filename>
+		<filename>src/mouseover.js</filename>
+		<filename>settings.php</filename>
+	</files>
+				<positions>
+			<position>top</position>
+			<position>header</position>
+			<position>footer</position>
+			<position>inset</position>
+			<position>bottom</position>
+			<position>banner</position>
+			<position>breadcrumb</position>
+			<position>left</position>
+			<position>cpanel</position>
+			<position>advert1</position>
+			<position>advert2</position>
+			<position>advert3</position>
+			<position>right</position>
+			<position>user1</position>
+			<position>user2</position>
+			<position>user3</position>
+			<position>user4</position>
+			<position>user5</position>
+			<position>user6</position>
+			<position>user7</position>
+			<position>user8</position>
+			<position>user9</position>
+			<position>user10</position>
+		
+			
+			</positions>
+	<images>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/blank.gif</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/blank.gif</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/full_bg.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/info.gif</filename>
+		<filename>images/jc_refreshg.gif</filename>
+		<filename>images/jc_rss.gif</filename>
+		<filename>images/loader.gif</filename>
+		<filename>images/logotm.jpg</filename>
+		<filename>images/main_bg.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/resize.gif</filename>
+		<filename>images/strelica.gif</filename>
+		<filename>images/yjnf4bottom.gif</filename>
+		<filename>images/acreed/button.gif</filename>
+		<filename>images/acreed/footer_bg.gif</filename>
+		<filename>images/acreed/h3.png</filename>
+		<filename>images/acreed/header.jpg</filename>
+		<filename>images/acreed/hero.jpg</filename>
+		<filename>images/acreed/login_but.gif</filename>
+		<filename>images/acreed/logo.png</filename>
+		<filename>images/acreed/mainlevel.gif</filename>
+		<filename>images/acreed/playlist_bg_hover.gif</filename>
+		<filename>images/acreed/reg_but.gif</filename>
+		<filename>images/acreed/search.gif</filename>
+		<filename>images/acreed/yjnf4_active.gif</filename>
+		<filename>images/acreed/yjnf4_normal.gif</filename>
+		<filename>images/acreed/topmenu/active_l.png</filename>
+		<filename>images/acreed/topmenu/active_r.gif</filename>
+		<filename>images/acreed/topmenu/arrow_right.gif</filename>
+		<filename>images/acreed/topmenu/drop_sep.png</filename>
+		<filename>images/acreed/topmenu/horiz_bg.png</filename>
+		<filename>images/acreed/topmenu/horiz_bg_d.gif</filename>
+		<filename>images/acreed/topmenu/horiz_bg_dd.png</filename>
+		<filename>images/acreed/topmenu/hover_l.png</filename>
+		<filename>images/acreed/topmenu/hover_r.gif</filename>
+		<filename>images/acreed/topmenu/normal_l.png</filename>
+		<filename>images/acreed/topmenu/normal_r.png</filename>
+		<filename>images/hulk/button.gif</filename>
+		<filename>images/hulk/footer_bg.gif</filename>
+		<filename>images/hulk/h3.png</filename>
+		<filename>images/hulk/header.jpg</filename>
+		<filename>images/hulk/hero.jpg</filename>
+		<filename>images/hulk/login_but.gif</filename>
+		<filename>images/hulk/logo.png</filename>
+		<filename>images/hulk/mainlevel.gif</filename>
+		<filename>images/hulk/playlist_bg_hover.gif</filename>
+		<filename>images/hulk/reg_but.gif</filename>
+		<filename>images/hulk/search.gif</filename>
+		<filename>images/hulk/yjnf4_active.gif</filename>
+		<filename>images/hulk/yjnf4_normal.gif</filename>
+		<filename>images/hulk/topmenu/active_l.png</filename>
+		<filename>images/hulk/topmenu/active_r.gif</filename>
+		<filename>images/hulk/topmenu/arrow_right.gif</filename>
+		<filename>images/hulk/topmenu/drop_sep.png</filename>
+		<filename>images/hulk/topmenu/horiz_bg.png</filename>
+		<filename>images/hulk/topmenu/horiz_bg_d.gif</filename>
+		<filename>images/hulk/topmenu/horiz_bg_dd.png</filename>
+		<filename>images/hulk/topmenu/hover_l.png</filename>
+		<filename>images/hulk/topmenu/hover_r.gif</filename>
+		<filename>images/hulk/topmenu/normal_l.png</filename>
+		<filename>images/hulk/topmenu/normal_r.png</filename>
+		<filename>images/spiderman/button.gif</filename>
+		<filename>images/spiderman/footer_bg.gif</filename>
+		<filename>images/spiderman/h3.png</filename>
+		<filename>images/spiderman/header.jpg</filename>
+		<filename>images/spiderman/hero.jpg</filename>
+		<filename>images/spiderman/login_but.gif</filename>
+		<filename>images/spiderman/logo.png</filename>
+		<filename>images/spiderman/mainlevel.gif</filename>
+		<filename>images/spiderman/read_l.gif</filename>
+		<filename>images/spiderman/read_r.gif</filename>
+		<filename>images/spiderman/reg_but.gif</filename>
+		<filename>images/spiderman/search.gif</filename>
+		<filename>images/spiderman/spanh3.gif</filename>
+		<filename>images/spiderman/yjnf4_active.gif</filename>
+		<filename>images/spiderman/yjnf4_normal.gif</filename>
+		<filename>images/spiderman/topmenu/active_l.png</filename>
+		<filename>images/spiderman/topmenu/active_r.gif</filename>
+		<filename>images/spiderman/topmenu/arrow_right.gif</filename>
+		<filename>images/spiderman/topmenu/drop_sep.png</filename>
+		<filename>images/spiderman/topmenu/horiz_bg.png</filename>
+		<filename>images/spiderman/topmenu/horiz_bg_d.gif</filename>
+		<filename>images/spiderman/topmenu/horiz_bg_dd.png</filename>
+		<filename>images/spiderman/topmenu/hover_l.png</filename>
+		<filename>images/spiderman/topmenu/hover_r.gif</filename>
+		<filename>images/spiderman/topmenu/normal_l.png</filename>
+		<filename>images/spiderman/topmenu/normal_r.png</filename>
+		<filename>images/typ/clip.gif</filename>
+		<filename>images/typ/down.gif</filename>
+		<filename>images/typ/error.gif</filename>
+		<filename>images/typ/info.gif</filename>
+		<filename>images/typ/pin.gif</filename>
+		<filename>images/typ/qlg.gif</filename>
+		<filename>images/typ/qrg.gif</filename>
+		<filename>images/typ/star.gif</filename>
+		<filename>images/typ/sticky.gif</filename>
+		<filename>images/typ/tips.gif</filename>
+		<filename>images/typ/video.gif</filename>
+		<filename>images/venom/button.gif</filename>
+		<filename>images/venom/footer_bg.gif</filename>
+		<filename>images/venom/h3.png</filename>
+		<filename>images/venom/header.jpg</filename>
+		<filename>images/venom/hero.jpg</filename>
+		<filename>images/venom/login_but.gif</filename>
+		<filename>images/venom/logo.png</filename>
+		<filename>images/venom/mainlevel.gif</filename>
+		<filename>images/venom/playlist_bg_hover.gif</filename>
+		<filename>images/venom/reg_but.gif</filename>
+		<filename>images/venom/search.gif</filename>
+		<filename>images/venom/yjnf4_active.gif</filename>
+		<filename>images/venom/yjnf4_normal.gif</filename>
+		<filename>images/venom/topmenu/active_l.png</filename>
+		<filename>images/venom/topmenu/active_r.gif</filename>
+		<filename>images/venom/topmenu/arrow_right.gif</filename>
+		<filename>images/venom/topmenu/drop_sep.png</filename>
+		<filename>images/venom/topmenu/horiz_bg.png</filename>
+		<filename>images/venom/topmenu/horiz_bg_d.gif</filename>
+		<filename>images/venom/topmenu/horiz_bg_dd.png</filename>
+		<filename>images/venom/topmenu/hover_l.png</filename>
+		<filename>images/venom/topmenu/hover_r.gif</filename>
+		<filename>images/venom/topmenu/normal_l.png</filename>
+		<filename>images/venom/topmenu/normal_r.png</filename>
+	</images>
+	<css>
+		<filename>css/editor.css</filename>
+		<filename>css/nocompress/venom.css</filename>
+		<filename>css/nocompress/acreed.css</filename>
+		<filename>css/nocompress/layout.css</filename>
+		<filename>css/nocompress/menus.css</filename>
+		<filename>css/nocompress/spiderman.css</filename>
+		<filename>css/nocompress/template.css</filename>
+		<filename>css/nocompress/typo.css</filename>
+		<filename>css/nocompress/hulk.css</filename>
+		<filename>css/acreed.css</filename>
+		<filename>css/hulk.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>css/menus.css</filename>
+		<filename>css/spiderman.css</filename>
+		<filename>css/template.css</filename>
+		<filename>css/venom.css</filename>
+		<filename>css/typo.css</filename>
+	</css>
+<params>
+<param name="compress" type="radio" default="0" label="Server Side Compression" description="Activate Server Side Compression for faster site load">
+<option value="1">Enable</option>
+<option value="0">Disable</option>
+</param>
+
+<param name="ie6notice" type="radio" default="0" label="Enable IE6 Notice" description="Advise visitors to change browser. Visible for IE6 visitors only">
+<option value="1">Enable</option>
+<option value="0">Disable</option>
+</param>
+
+
+<param name="nonscript" type="radio" default="0" label="Enable nonscript Notice" description="Advise visitors to activate javascript. Visible for visitors who have javascript disabled">
+<option value="1">Enable</option>
+<option value="0">Disable</option>
+</param>
+
+			<param name="menuName" type="text" default="mainmenu" label="Default Top Menu" description="Can be any Joomla menu" />
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="menustyle" type="list" default="3" label="Default Menu Style" description="Change Default Menu style">
+<option value="1">Dropdown Menu</option>
+<option value="2">SMooth Dropdown Menu</option>
+<option value="3">Dropline Menu</option>
+<option value="4">SMooth Dropline Menu</option>
+<option value="5">Split Menu</option>
+</param>
+
+
+
+			<param name="@spacer" type="spacer" default="Collor Settings" label="Collor Settings" description="" />
+
+<param name="defaultcolor" type="list" default="beige" label="Default color" description="Change Default Color">
+<option value="spiderman">Spiderman</option>
+<option value="venom">Venom</option>
+<option value="acreed">Assassins Creed</option>
+<option value="hulk">Hulk</option>
+
+
+
+</param>
+
+
+
+
+
+
+<param name="@spacer" type="spacer" default="Site Width" label="Set Default Width" description="Set Default Width" />
+<param name="sitewidth" type="radio" default="wide" label="Default Site Width" description="Change Default Site Width">
+<option value="wide">1024</option>
+<option value="narrow">800</option>
+</param>
+
+
+
+
+
+<param name="@spacer" type="spacer" default="Font Size" label="Set Default Font Size" description="Set Default Font Size" />
+<param name="fontsize" type="radio" default="medium" label="Default Font Size" description="Change Default Font Size">
+<option value="small">Small</option>
+<option value="medium">Medium</option>
+<option value="large">Large</option>
+</param>
+
+
+<param name="@spacer" type="spacer" default="SEO Settings" label="" description="" />
+            <param name="seo" type="text" default="Joomla 1.5 Template By Youjoomla.com" label="Enter your site description " size="50" description="This is SEO part:  Enter your site description here" />
+            <param name="tags" type="text" default="Joomla Templates by Youjoomla, Joomla Template Club, Youjoomla" size="80" label="Enter,your,site,keywords" description="This is SEO part:   Enter,your,site,keywords,here" />
+
+
+
+
+
+			</params>
+</install>

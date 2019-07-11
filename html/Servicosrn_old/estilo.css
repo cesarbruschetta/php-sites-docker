@@ -1,0 +1,200 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FF8230;
+	background-image: url(imagens/background.png);
+}
+#all {
+	margin: 0px;
+	padding: 0px;
+	width: 770px;
+	background-color: #FFF;
+}
+#all #menu {
+	width: 770px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+#all #menu table tr td #barra_menu #materiais {
+	width: 210px;
+}
+
+#all #menu table tr td a img {
+	margin: 0px;
+}
+#all #conteudo {
+	width: 765px;
+}
+#all #conteudo h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #F00;
+	text-align: center;
+}
+#all #conteudo h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #00F;
+	padding-left: 15px;
+}
+#all #conteudo table tr td{
+	border: 1px dashed #CCC;
+}
+#all #conteudo table tr td p a {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #000;
+	text-decoration: none;
+	margin: 10px;
+	text-align: center;
+	clear: both;
+	float: left;
+}
+
+#all #conteudo table tr td p a img {
+	padding: 0px;
+	float: none;
+}
+
+
+
+
+#all #conteudo p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: justify;
+}
+#all #conteudo p img {
+	float: left;
+	padding: 5px;
+}
+#all #conteudo p em {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #000;
+	font-style: italic;
+	font-weight: bolder;
+	text-align: center;
+}
+#all #conteudo #fotos img  {
+	float: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+#all #conteudo #fonte {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	text-align: right;
+}
+
+
+
+
+#all #conteudo #sub-menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 14px;
+}
+#all #conteudo #sub-menu tr td{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#all #conteudo #sub-menu tr td ul li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: left;
+	list-style-image: url(imagens/BD21300_.GIF);
+	list-style-position: inside;
+}
+#all #conteudo #links {
+}
+
+#all #conteudo #sub-menu a {
+	color: #000;
+}
+#all #conteudo #voltar a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: #00C;
+	font-size: 14px;
+}
+#all #conteudo #form1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 2px solid #FFF;
+}
+#all #conteudo #form1 tr td{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#all #conteudo #envio {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+}
+#all #conteudo #envio a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+}
+
+#all #conteudo #topo a    {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#all #rodape {
+	background-image: url(imagens/rodape.png);
+	height: 120px;
+	width: 770px;
+	background-color: #0099FF;
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+
+#all #rodape p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	margin-top: 64px;
+}
+
+#sobre {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+}

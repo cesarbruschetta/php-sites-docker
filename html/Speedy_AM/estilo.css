@@ -1,0 +1,124 @@
+body {
+	background-image: url(imagens/tmpl/body-bg.jpg);
+	background-repeat: repeat;
+	background-position: top;
+}
+
+#all {
+	width: 955px;
+	background-color: #FFF;
+	margin: auto;
+	padding: 0px;
+}
+#all #banner {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+}
+#all #menu {
+	margin: 0px;
+	padding: 0px;
+	width: 220px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCC;
+}
+#all #conteudo {
+	padding: 0px;
+	margin: 15px;
+	width: 704px;
+}
+#all #conteudo p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: justify;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#all #conteudo h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	color: #1C598F;
+	font-weight: bolder;
+	font-size: x-large;
+	padding: 10px;
+}
+#all table tr td #conteudo #anuncios {
+	border: 2px dashed #067FDC;
+	width: 200px;
+	text-align: justify;
+}
+#all table tr td #conteudo #anuncios tr td strong a {
+	color: #000;
+	text-decoration: underline;
+}
+#all #conteudo #voltar a   {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #06F;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+
+#all #conteudo #topo a   {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #06F;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	float: right;
+}
+#all #rodape {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+	background-color: #2AB6FC;
+	background-image: url(imagens/tmpl/rodape.png);
+	background-repeat: repeat-x;
+	background-position: left;
+	height: 120px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#all #rodape p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin: 0px;
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #rodape p strong {
+	color: #000;
+}
+
+
+#sobre {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+}

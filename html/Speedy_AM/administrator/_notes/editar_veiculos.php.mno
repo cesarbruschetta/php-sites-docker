@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_ListaVeiculos" value="name:vei_id;datatype:int,name:vei_marca;datatype:string,name:vei_modelo;datatype:string,name:vei_ano;datatype:string" />
+</info>

@@ -1,0 +1,60 @@
+Theme Styling
+=====================================================
+
+
+1. How To Use Variable Class Styling In Post?
+
+Write panel > code view
+
+<p class="download">This is download styling classes</p>
+<p class="warning">This is warning styling classes</p>
+<p class="note">This is note styling classes</p>
+<p class="alert">This is alert styling classes</p>
+<p class="info">This is info styling classes</p>
+
+
+
+
+2. How To Use Pullquote Left And Pullquote Right?
+
+Write panel > code view
+
+Pullquote-left 
+<span class="pullquote-left">some pullquote text here</span>
+
+Pullquote-right 
+<span class="pullquote-right">some pullquote text here</span>
+
+*Used span class rather than div and p tag for better implementation 
+
+
+
+3. Image Class Alignleft, Alignright And Aligncenter?
+
+Write panel > code view
+
+Image Align Left Of Text Wrap
+<img src="image-url" alt="img.alt" class="alignleft"/>
+
+Image Align Right Of Text Wrap *similiar to sample
+<img src="image-url" alt="img.alt" class="alignright"/>
+
+Image Align Center Clear Both Side
+<img src="image-url" alt="img.alt" class="aligncenter"/> 
+
+
+
+
+4. How To Use Caption Left And Caption Right?
+
+Write panel > code view
+
+Caption Left
+<span class="caption-img-left"><img scr="img_url"
+ alt="img_alt"><em>your caption text</em></span>
+
+Caption Right
+<span class="caption-img-right"><img scr="img_url"
+ alt="img_alt"><em>your caption text</em></span>
+
+*Used span class rather than div and p tag for better implementation 

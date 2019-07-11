@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_fotos" value="name:fotv_id;datatype:int,name:fotv_id_veiculo;datatype:int,name:fotv_src;datatype:string" />
+</info>

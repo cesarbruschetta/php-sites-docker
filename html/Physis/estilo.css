@@ -1,0 +1,215 @@
+body {
+	background-image: url(Imagens/bg.gif);
+	background-repeat: repeat;
+}
+
+#all {
+	margin: 0px;
+	padding: 0px;
+	width: 955px;
+	background-color: #FFF;
+}
+#all #conteudo #menu {
+	width: 200px;
+}
+#all #conteudo table tr #menu #MenuBar1 li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+}
+#all #conteudo #conteudo_1 {
+	width: 752px;
+}
+
+
+#all #conteudo table tr #conteudo_1 h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #090;
+	padding-top: 20px;
+	text-align: center;
+}
+#all #conteudo table tr #conteudo_1 h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #00F;
+	text-decoration: underline;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+#all #conteudo table tr #conteudo_1 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#all #conteudo table tr #conteudo_1 p a {
+	font-weight: bold;
+	color: #000;
+}
+#all #conteudo table tr #conteudo_1 ul li{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-image: url(Imagens/seta.jpg);
+	background-repeat: no-repeat;
+	list-style-type: none;
+	background-position: 3px;
+	padding-left: 25px;
+}
+
+#all #conteudo table tr #conteudo_1 #link {
+	margin-left: 70px;
+	text-align: center;
+	width: 580px;
+}
+#all #conteudo table tr #conteudo_1 p img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+#all #conteudo table tr #conteudo_1 p #direita {
+	float: right;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+#all #conteudo table tr #conteudo_1 a img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#all #conteudo table tr #conteudo_1 a #diferente {
+	float: left;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+
+
+#all #conteudo table tr #conteudo_1 #link  tr td a{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#all #conteudo table tr #conteudo_1 #voltar {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+
+
+#all #conteudo table tr #conteudo_1 #form1 #formulario {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 60px;
+	text-align: left;
+}
+
+#all #conteudo table tr #conteudo_1 #mensagem {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #03C;
+	text-align: center;
+	margin: 10px;
+}
+#all #conteudo table tr #conteudo_1 #mensagem a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #03C;
+	text-align: center;
+	margin: 10px;
+}
+
+#all #conteudo table tr #conteudo_1 #topo a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #090;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	margin: 0px;
+	float: right;
+}
+
+#all #conteudo table tr td #topo a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #090;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+
+#all #conteudo #rodape {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #FFF;
+	background-image: url(Imagens/rodape.png);
+	background-repeat: repeat-x;
+	height: 100px;
+	width: 955px;
+}
+#all #conteudo #rodape p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#sobre {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}

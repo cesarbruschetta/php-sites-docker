@@ -1,0 +1,169 @@
+#s5_box_button {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_box_button.png', sizingMethod='crop');
+	background: none;
+}
+
+#s5_outer {
+     height: 572px;
+}
+
+#s5_mainmenu {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_mainmenu.png', sizingMethod='crop');
+	background: none;
+}
+
+#s5_logo {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/logo.png', sizingMethod='crop');
+	background: none;
+	height: 1%;
+}
+
+#s5_column div.moduletable-style1, #s5_inset div.moduletable-style1 {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_opac_black80.png', sizingMethod='scale');
+	background: none;
+	height: 1%;
+}
+
+#s5_bannertop {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_col_tops.png', sizingMethod='crop');
+	background: none;
+	height: 1%;
+}
+
+#s5_columntop {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_col_tops.png', sizingMethod='crop');
+	background: none;
+	height: 1%;
+}
+
+#s5_navv ul li a.active { 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_menu_act.png', sizingMethod='scale');
+	background: none;
+	height: 100%;
+}
+
+#s5_navv ul li a:hover {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_menu_hover.png', sizingMethod='scale');
+	background: none;
+	height: 100%;
+}
+
+#s5_navv ul li li a {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_menu_subs.png', sizingMethod='scale');
+	background: none;
+        border-bottom: groove 1px #494949;
+	height: 100%;
+}
+
+#s5_navv ul li a {
+	background: none;
+	height: 100%;
+}
+
+* html #s5_navv ul li a.parent {
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_menu_parent_sub.png', sizingMethod='crop');
+        background: none;
+}
+
+#s5_navv ul li li a.parent:hover {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_menu_parent_ie.png', sizingMethod='crop');
+}
+
+#s5_navv {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_menu_bg.png', sizingMethod='scale');
+	background: none;
+	height: 100%;
+}
+
+#s5_panel_bottom {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_panel_bottom.png', sizingMethod='crop');
+	background: none;
+}
+
+#s5_panel_top {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_panel_top.png', sizingMethod='crop');
+	background: none;
+}
+
+#s5_column div.module-style11 h3, #s5_inset div.module-style11 h3, #s5_column div.module-style12 h3, #s5_inset div.module-style12 h3, #s5_column div.module-style13 h3, #s5_inset div.module-style13 h3, , #s5_banner div.module-style11 h3, #s5_banner div.module-style12 h3, #s5_banner div.module-style13 h3, #s5_column div.module-style14 h3, #s5_inset div.module-style14 h3, #s5_banner div.module-style14 h3 {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/gamevision/images/s5_h3_clear.png', sizingMethod='crop');
+	background: none;
+}
+
+* html #s5_column {
+     background-image: none;                             /* IE only */
+     background-color: #FFFFFF;                          /* IE only */
+     filter:alpha(opacity=10);                           /* IE only */
+}
+
+* html #s5_inset {
+     background-image: none;                             /* IE only */
+     background-color: #FFFFFF;                          /* IE only */
+     filter:alpha(opacity=10);                           /* IE only */
+}
+
+* html #s5_banner {
+     background-image: none;                             /* IE only */
+     background-color: #FFFFFF;                          /* IE only */
+     filter:alpha(opacity=10);                           /* IE only */
+}
+
+* html #s5_column div.module-style1, #s5_inset div.module-style1, #s5_banner div.module-style1  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=65);                           /* IE only */
+}
+
+* html #s5_column div.module-style2, #s5_inset div.module-style2, #s5_banner div.module-style2  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=92);                           /* IE only */
+}
+
+* html #s5_column div.module-style3, #s5_inset div.module-style3, #s5_banner div.module-style3  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=92);                           /* IE only */
+}
+
+* html #s5_column div.module-style4, #s5_inset div.module-style4, #s5_banner div.module-style4  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=65);                           /* IE only */
+}
+
+* html #s5_column div.module-style6, #s5_inset div.module-style6, #s5_banner div.module-style6  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=65);                           /* IE only */
+}
+
+* html #s5_column div.module-style7, #s5_inset div.module-style7, #s5_banner div.module-style7  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=92);                           /* IE only */
+}
+
+* html #s5_column div.module-style8, #s5_inset div.module-style8, #s5_banner div.module-style8  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=92);                           /* IE only */
+}
+
+* html #s5_column div.module-style9, #s5_inset div.module-style9, #s5_banner div.module-style9  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=65);                           /* IE only */
+}
+
+* html #s5_column div.module-style12, #s5_inset div.module-style12, #s5_banner div.module-style12  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=65);                           /* IE only */
+}
+
+* html #s5_column div.module-style13, #s5_inset div.module-style13, #s5_banner div.module-style13  { 
+     background-image: none;                             /* IE only */
+     background-color: #111111;                          /* IE only */
+     filter:alpha(opacity=92);                           /* IE only */
+}

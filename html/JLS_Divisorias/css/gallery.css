@@ -1,0 +1,49 @@
+.gallery { background:url(../images/bg_nav_right.jpg) right top no-repeat; padding:0 4px 10px 0; }
+.gallery ul {
+	margin:0;
+	padding:0;
+	background:#960000 url(../images/bg_nav.jpg) left top repeat-x;
+	list-style:none;
+	position:relative;
+	height:36px;
+	background-color: #0099FF;
+}
+
+.gallery ul li { display:block; width:auto; float:left; color:#fff; height:36px; }
+.gallery ul li a { display:block; width:auto; color:#fff; text-decoration:none; padding:8px 1.3em 8px 1em; font:1.1em Verdana, sans-serif; background:url(../images/nav_arrow.jpg) right 0 no-repeat; }
+.gallery ul li a:hover { text-decoration:underline; background:url(../images/nav_arrow.jpg) right -36px no-repeat; }
+.gallery ul li.first { background:url(../images/bg_nav_left.jpg) left top no-repeat; }
+
+.gallery ul li ul {
+	display:none;
+	position:absolute;
+	top:34px;
+	background:#fff url(../images/bg_nav.jpg) left -34px repeat-x;
+	height:auto;
+	width:95%;
+	left:2%;
+	padding:8px 5px 15px 5px;
+	border-right-width: 1px;
+	border-bottom-width: 6px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #000099;
+	border-bottom-color: #000099;
+	border-left-color: #000099;
+}
+.gallery ul li:hover ul,
+.gallery ul li.over ul { display:block; }
+.gallery ul li ul li { display:inline; float:none; background-image:none; height:auto; }
+.gallery ul li ul li a { background-image:none; margin:8px; padding:2px; position:relative; border:1px solid #000099; float:left; display:block; width:75px; height:50px; background-color:#fff; }
+.gallery ul li ul li a:hover { background-image:none; z-index:2; }
+.gallery ul li ul li a img { position:absolute; top:2px; width:75px; height:50px; border:0; margin:0; padding:0; }
+.gallery ul li a:hover img,
+.gallery ul li a:active img,
+.gallery ul li a:focus img { width:100px; height:75px; left:-11px; top:-10px; z-index:1; border:1px solid #000; }
+.gallery ul li.overview { display:block; clear:both; padding:5px 10px 0 10px; color:#000; }
+
+
+#gallery1 ul { z-index:2; }
+#gallery2 ul { z-index:1; }

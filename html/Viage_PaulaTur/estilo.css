@@ -1,0 +1,134 @@
+body {
+	background-color: #06F;
+	background-image: url(imagens/bg.gif);
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#all {
+	margin: 0px;
+	padding: 0px;
+	width: 770px;
+	background-color: #FFF;
+}
+
+#all #conteudo table #menu {
+	width: 200px;
+}
+
+
+#all #conteudo table tr #conteudo_1 {
+	width: 550px;
+	padding-left: 10px;
+}
+#all #conteudo table tr #conteudo_1 h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #00F;
+	text-align: center;
+	margin-top: 15px;
+}
+#all #conteudo table tr #conteudo_1 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 5px;
+	text-align: justify;
+}
+#all #conteudo table tr #conteudo_1 ul li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	list-style-type: disc;
+	list-style-position: outside;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: -20px;
+	text-align: justify;
+	margin-right: 10px;
+}
+
+#all #conteudo table tr #conteudo_1 a img  {
+	float: left;
+	margin: 5px;
+}
+#all #conteudo table tr #conteudo_1 p img {
+	float: left;
+	margin: 5px;
+}
+#all #conteudo table tr #conteudo_1 #form1 #formulario {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+#all #conteudo table tr #conteudo_1 #envio {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #F00;
+	text-align: center;
+}
+#all #conteudo table tr #conteudo_1 #envio a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #F00;
+	text-align: center;
+}
+
+
+
+#all #conteudo table tr #conteudo_1 #topo a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	margin: 0px;
+	float: right;
+}
+
+
+#all #conteudo table tr td #topo a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #090;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 14px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#all #rodape {
+	background-color: #488BE2;
+	width: 770px;
+	background-image: url(imagens/rodape.png);
+	height: 100px;
+}
+
+
+#all #rodape p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 5px;
+}
+
+
+#sobre {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+}

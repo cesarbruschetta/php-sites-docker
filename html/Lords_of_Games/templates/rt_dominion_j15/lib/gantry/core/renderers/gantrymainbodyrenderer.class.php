@@ -1,0 +1,142 @@
+<?php
+/**
+ * @package     gantry
+ * @subpackage  core.renderers
+ * @version   2.0 January 1, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ *
+ * Gantry uses the Joomla Framework (http://www.joomla.org), a GNU/GPLv2 content management system
+ *
+ */
+defined('GANTRY_VERSION') or die();
+/**
+ * @package     gantry
+ * @subpackage  core.renderers
+ */
+class GantryMainBodyRenderer  {
+	// wrapper for mainbody display
+    function display($bodyLayout = 'mainbody', $sidebarLayout = 'sidebar', $sidebarChrome = 'standard', $contentTopLayout = 'standard', $contentTopChrome = 'standard', $contentBottomLayout = 'standard', $contentBottomChrome = 'standard') {
+        global $gantry;
+        
+        $editmode = JRequest::getCmd('task')=='edit' ? true:false;
+        $position_renders = array();
+        
+        if (!$editmode) {
+	        //get current sidebar count based on module usages
+	        $positions = $gantry->getPositions('sidebar');
+	        $sidebarCount = $gantry->countModules('sidebar');
+	
+	        foreach($positions as $position) {
+	            $contents = '';
+	            $features = $gantry->_getFeaturesForPosition($position);
+				$modules = JModuleHelper::getModules($position);
+	
+	            if (!count($modules) and !count($features)) continue;
+	
+	            foreach($features as $feature_name){
+	                $feature = $gantry->_getFeature($feature_name);
+	                $rendered_feature = $feature->render($position);
+	                if (!empty($rendered_feature)) {
+					    $contents .= $rendered_feature."\n";
+	                }
+				}
+	            $position_renders[$position] = $contents;
+	
+	            if (!count($modules)) continue;
+	
+	            $shortname = $gantry->_getShortName($position);
+	            $contents .= '<jdoc:include type="modules" name="'.$position.'" style="'.$sidebarChrome.'" />' . "\n";
+	            $position_renders[$position] = $contents;
+	        }
+	        
+	        foreach($position_renders as $position => $contents){
+	            if (empty($contents)){
+	                $sidebarCount--;
+	            }
+	        }
+        } else {
+        	$sidebarCount = 0;
+        }
+
+        $columnCount = $sidebarCount+1;
+        
+        // see if the mainbodySchema exists, if not probably old cached file
+        if (!isset($gantry->mainbodySchemas[GRID_SYSTEM][$columnCount])) {
+        	// Clear the cache gantry cache 
+        	$cache =& JFactory::getCache('', 'callback', 'file');
+        	$cache->clean( 'Gantry' );
+        }
+        
+        //here we would see if the mainbody schema was set to soemthing else        
+        $defaultSchema     = $gantry->mainbodySchemas[GRID_SYSTEM][$columnCount];
+
+		$position = @unserialize($gantry->get('mainbodyPosition'));
+
+        if (!$position || !isset($position[GRID_SYSTEM]) || !array_key_exists($columnCount,$position[GRID_SYSTEM])) $schema = $defaultSchema;
+        else {
+            $schema = $position[GRID_SYSTEM][$columnCount];
+        }
+        
+        // If RTL then flip the array
+        if ($gantry->document->direction == 'rtl' && $gantry->get('rtl-enabled')) {
+        	$position_renders = array_reverse($position_renders);
+        	$schema = $gantry->_flipBodyPosition($schema);
+        }
+        
+
+        $classKey   = $gantry->_getKey($schema);
+        $pushPull   = $gantry->pushPullSchemas[$classKey];
+
+
+        // get base and override layouts.php
+        require_once($gantry->templatePath.'/lib/gantry/html/layouts.php');
+        if (file_exists($gantry->layoutPath)) require_once($gantry->layoutPath);
+
+        $output         = '';
+        $sidebars       = '';
+        $contentTop     = null;
+        $contentBottom  = null;
+
+        $index = 1;
+        // remove the mainbody and use the schema array for grid sizes
+        $sidebarSchema = $schema;
+        unset ($sidebarSchema['mb']);
+
+        $layoutSidebar = 'modLayout_'.$sidebarLayout;
+        
+        
+        
+
+        foreach($position_renders as $position => $contents){
+            if (empty($contents)) continue;
+
+            // Apply chrome and render module
+            if (function_exists($layoutSidebar)) {
+                $sidebars .= $layoutSidebar($contents, $position, current($sidebarSchema), $pushPull[$index++]);
+                next($sidebarSchema);
+            }
+        }
+
+
+        if ($gantry->countModules('content-top')) {
+            $contentTop = $gantry->displayModules('content-top',$contentTopLayout,$contentTopChrome,$schema['mb']);
+        }
+
+        if ($gantry->countModules('content-bottom')) {
+            $contentBottom = $gantry->displayModules('content-bottom',$contentBottomLayout,$contentBottomChrome,$schema['mb']);
+        }
+
+        // determine message html
+        $layoutBody = 'bodyLayout_'.$bodyLayout;
+
+        // Apply chrome and render module
+        if (function_exists($layoutBody)) {
+            $output .= $layoutBody($schema,$pushPull,$classKey,$sidebars, $contentTop, $contentBottom);
+        }
+
+        return $output;
+
+    }
+}

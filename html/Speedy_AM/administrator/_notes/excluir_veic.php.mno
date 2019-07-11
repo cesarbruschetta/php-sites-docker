@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_ExcluirConteudo" value="name:pag_id;datatype:int,name:pag_nome;datatype:string,name:pag_titulo;datatype:string" />
+	<infoitem key="UD_Rs_ExcluirUsuario" value="name:usu_id;datatype:int,name:usu_nome;datatype:string,name:usu_email;datatype:string,name:usu_nivel;datatype:int,name:usu_status;datatype:int" />
+	<infoitem key="UD_Rs_ExcluirVeiculo" value="name:vei_id;datatype:int,name:vei_marca;datatype:string,name:vei_modelo;datatype:string,name:vei_ano;datatype:string,name:vei_km;datatype:string,name:vei_descricao;datatype:blob" />
+</info>

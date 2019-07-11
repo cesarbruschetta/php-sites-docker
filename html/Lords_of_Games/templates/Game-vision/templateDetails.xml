@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>gamevision</name>
+	<creationDate>October 2007</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description>GameVision - Shape 5 October 2007 Club Template<![CDATA[
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>footer.php</filename>
+		<filename>suckerfish.php</filename>
+		<filename>js/s5_suckerfish.js</filename>
+		<filename>js/s5_effects.js</filename>
+		<filename>js/lytebox.js</filename>
+		<filename>js/s5_cookies.js</filename>
+		<filename>params.ini</filename>
+	</files>
+	<images>
+                <filename>images/typography/arrow_black.png</filename>
+                <filename>images/typography/arrow_white.png</filename>
+                <filename>favicon.ico</filename>
+                <filename>template_thumbnail.png</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/blank.gif</filename>
+		<filename>images/close_blue.png</filename>
+		<filename>images/close_gold.png</filename>
+		<filename>images/close_green.png</filename>
+		<filename>images/close_grey.png</filename>
+		<filename>images/close_red.png</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>	
+		<filename>images/emailButton.png</filename>
+		<filename>images/s5_panel_button.png</filename>
+		<filename>images/headerbg.jpg</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/loader.gif</filename>
+		<filename>images/loading.gif</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/next_blue.gif</filename>
+		<filename>images/next_gold.gif</filename>
+		<filename>images/next_green.gif</filename>
+		<filename>images/next_grey.gif</filename>
+		<filename>images/next_red.gif</filename>
+		<filename>images/pause_blue.png</filename>
+		<filename>images/pause_gold.png</filename>
+		<filename>images/pause_green.png</filename>
+		<filename>images/pause_grey.png</filename>
+		<filename>images/pause_red.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/play_blue.png</filename>
+		<filename>images/play_gold.png</filename>
+		<filename>images/play_green.png</filename>
+		<filename>images/play_grey.png</filename>
+		<filename>images/play_red.png</filename>
+		<filename>images/prev_blue.gif</filename>
+		<filename>images/prev_gold.gif</filename>
+		<filename>images/prev_green.gif</filename>
+		<filename>images/prev_grey.gif</filename>
+		<filename>images/prev_red.gif</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/s5_background.png</filename>
+		<filename>images/s5_bot_bots.gif</filename>
+		<filename>images/s5_bot_tops.gif</filename>
+		<filename>images/s5_box_button.png</filename>
+		<filename>images/s5_col_tops.png</filename>
+		<filename>images/s5_column_bot.png</filename>
+		<filename>images/s5_footer_top.gif</filename>
+		<filename>images/s5_h3_clear.png</filename>
+		<filename>images/s5_inputbox.png</filename>
+		<filename>images/s5_logo.png</filename>
+		<filename>images/s5_mainmenu.png</filename>
+		<filename>images/s5_menu_act.png</filename>
+		<filename>images/s5_menu_bg.png</filename>
+		<filename>images/s5_menu_hover.png</filename>
+		<filename>images/s5_menu_main_hover.gif</filename>
+		<filename>images/s5_menu_parent.gif</filename>
+		<filename>images/s5_menu_parent.png</filename>
+		<filename>images/s5_menu_parent_hover.png</filename>
+		<filename>images/s5_menu_parent_ie.gif</filename>
+		<filename>images/s5_menu_parent_ie.png</filename>
+		<filename>images/s5_menu_parent_sub.png</filename>
+		<filename>images/s5_menu_parentsub_hover.png</filename>
+		<filename>images/s5_menu_sub.png</filename>
+		<filename>images/s5_menu_subs.png</filename>
+		<filename>images/s5_opac20.png</filename>
+		<filename>images/s5_opac90.png</filename>
+		<filename>images/s5_opac92.png</filename>
+		<filename>images/s5_opac95.png</filename>
+		<filename>images/s5_opac_black20.png</filename>
+		<filename>images/s5_opac_black50.png</filename>
+		<filename>images/s5_opac_black60.png</filename>
+		<filename>images/s5_opac_black75.png</filename>
+		<filename>images/s5_opac_black80.png</filename>
+		<filename>images/s5_opac_black90.png</filename>
+		<filename>images/s5_panel_bottom.png</filename>
+		<filename>images/s5_panel_top.png</filename>
+		<filename>images/s5_popupbg.gif</filename>
+		<filename>images/s5_right_h3_def.gif</filename>
+		<filename>images/s5_right_menu.gif</filename>
+		<filename>images/s5_right_menu_hover.gif</filename>
+		<filename>images/s5_row_h3.png</filename>
+		<filename>images/weblink.png</filename>
+		<filename>images/typography/doc.png</filename>
+		<filename>images/typography/folder.png</filename>
+		<filename>images/typography/exclamation.png</filename>
+		<filename>images/typography/stop.png</filename>
+	</images>
+	<positions>
+		<position>header</position>
+		<position>toolbar</position>
+		<position>top</position>
+		<position>top2</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>banner</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>left</position>
+		<position>icon</position>
+		<position>bottom</position>
+		<position>inset</position>
+		<position>breadcrumbs</position>
+		<position>footer</position>
+	</positions>
+	<css>
+		<filename>css/template_css.css</filename>
+		<filename>css/suckerfish.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/lytebox.css</filename>
+	</css>
+	<params>
+		<param name="" type="" default="" label="Make sure to hover your mouse over each title in this column for a full description of what each field does." description="" />
+		<param name="xml_menuname" type="text" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />
+                <param name="" type="" default="" label="Because this template gives you the option to use your own background the color combinations are unlimited. The next 8 questions will ask you how you want to color different sections of the template's fonts." description="" />
+                <param name="xml_s5_color" type="text" default="A19C53" label="Main Highlight Color" description="What color would you like as a main highlight color (this color will effect most of the template)" />
+                <param name="xml_s5_header_color" type="text" default="FFFFFF" label="Header Position Color" description="What color would you like for the header position?" />
+                <param name="xml_s5_user1_color" type="text" default="FFFFFF" label="User 1 Position Color" description="What color would you like for the user1 position?" />
+                <param name="xml_s5_user2_color" type="text" default="FFFFFF" label="User 2 Position Color" description="What color would you like for the user2 position?" />
+                <param name="xml_s5_panel_color" type="text" default="DEDEDE" label="Advert1 and 2 Color" description="What color woud you like for advert1 and advert2?" />
+                <param name="xml_s5_body_color" type="text" default="DEDEDE" label="Main Body Color" description="What color woud you like for the main body text?" />
+                <param name="xml_s5_top_menu_color" type="text" default="DC964A" label="Top Positoin Color" description="What color would you like for the menu in the top position?" />
+                <param name="xml_s5_path_color" type="text" default="FFFFFF" label="Breadcrumbs Color" description="What color would you like for the pathway?" />
+                <param name="xml_s5_body_opacity" type="text" default="2" label="Body Opacity" description="What opacity would you like for the main body? Enter 1 through 7. 1 is completely transparent, 5 is solid black, 6 solid grey, 7 solid white." />
+                <param name="xml_s5_box_link" type="text" default="Open S5 Box" label="S5 Box Label" description="If you publish any module to the toolbar position the S5 Box button will appear; what text would you like it to say?" />
+                <param name="xml_s5_column_width" type="text" default="250" label="Column Width" description="What width in px's would you like the column to be?" />
+                <param name="xml_s5_layout" type="text" default="1" label="Page Layout" description="What layout would you like, choose 1 or 2." />
+                <param name="xml_s5_loader" type="text" default="Yes" label="Enbable Page Loader?" description="Would you like to enable the page loader screen? Enter yes or no." />
+                <param name="xml_s5_loading_text" type="text" default="[  STANDBY INITIALIZING  ]" label="Page Loading Text" description="If the page loader is enabled what text would you like it to say?" />
+                <param name="xml_s5_logo_height" type="text" default="72" label="Logo Height" description="Due to png issues with IE6 you must enter the height of your logo. If you use the logo psd found in the download section and do not change any sizes you do not need to edit the default setting of 72. (The width is automatically calculated.)" />
+                <param name="xml_s5_show_menu" type="text" default="yes" label="Show Main Menu?" description="Would you like the main drop-down, suckerfish menu shown? Enter yes or no." />
+                <param name="xml_s5_open_text" type="text" default="Open Game Control Panel" label="Open Text" description="If you publish any module to advert1 or advert2 a drop down will appear. What text would you like to display if it is closed?" />
+                <param name="xml_s5_closed_text" type="text" default="Close Game Control Panel" label="Close Text" description="What text would you like to display if it is opened?" />
+                <param name="xml_s5_open_start" type="text" default="yes" label="Open Drop Down on Page Load?" description="If you publish an items to advert1 or advert2 would you like the drop down to be open or closed on page load? After the first load the position will be saved by a cookie on the user's computer. Ente open or closed." />
+	</params>
+</install>

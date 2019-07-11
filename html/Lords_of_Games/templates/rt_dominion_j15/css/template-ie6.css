@@ -1,0 +1,106 @@
+/**
+ * @package   Dominion Template - RocketTheme
+ * @version   1.5.0 January 1, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+ #rt-copyright, .rt-block, #rt-main-surround, #rt-header, #rt-header-overlay, #rt-mainbody, #rt-bottom, #rt-menu-overlay, .rt-main-overlay, .module-surround, .module-br, .module-title, #rt-background, #rt-background2, #rt-background3 {zoom: 1;}
+ 
+ /* cludge for fixed width empty div */
+#rt-drawer .rt-grid-12 {float: none;}
+
+/* cludge for mainbody jumping */
+#rt-main  {	zoom:1;position: relative;}
+ 
+/* Content Titles */
+.rt-headline {zoom: 1;}
+
+/* Header */
+.topbar ul li a {display: inline !important;}
+
+/* Showcase */
+.showcase-item {display: inline;}
+.showcase, .showcase-item {zoom: 1;}
+#rt-showcase {padding-bottom: 0;zoom: 1;}
+
+/* Content */
+.pollstableborder {zoom: 1;}
+.rt-joomla .rt-headline {margin-top:0;}
+.article-rating {position: relative !important;}
+.rt-joomla .rt-articleinfo {width: auto;zoom: 1;}
+
+/* Top Menus */
+.menu-type-splitmenu .menutop li, .menu-type-suckerfishmenu .menutop li {margin: 0;}
+.menu-type-splitmenu .menutop li a, .menu-type-suckerfishmenu .menutop li a {margin: 0;}
+.menu-type-suckerfishmenu .menutop li {border: 0;}
+.menu-type-suckerfishmenu #rt-menu li li a span, .menu-type-suckerfishmenu #rt-menu li.sfHover li a span, .menu-type-suckerfishmenu #rt-menu li#current li a span {background: none}
+
+/* Side Menus */
+#rt-main-surround ul.menu li a:hover,
+#rt-main-surround ul.menu li.active li a:hover,
+#rt-main-surround ul.menu li.active li.active li a:hover,
+#rt-main-surround ul.menu li.active a,
+#rt-main-surround ul.menu li.active li.active a,
+#rt-main-surround ul.menu li.active li.active li.active a,
+#rt-main-surround ul.menu li.active li.active li.active li.active a {background-position: 0 -581px;}
+#rt-main-surround ul.menu li.active li a,
+#rt-main-surround ul.menu li.active li.active li a,
+#rt-main-surround ul.menu li.active li.active li.active li a,
+#rt-main-surround ul.menu li.active li.active li.active li.active a {background-position: 0 10px;}
+#rt-main-surround ul.menu, #rt-main-surround ul.menu ul {zoom: 1;}
+#rt-main-surround ul.menu li {display: inline;}
+
+/* Modules */
+.module-title h2.title {padding: 10px 0;}
+.module-title, .module-title2, .high .module-title3, .med .module-title3 {background: none !important;}
+.module-tl, .module-tr, .module-tm, .module-l, .module-r, .module-bl, .module-bm, .module-br {background: none !important;zoom: 1;position: relative;}
+
+/* Readon */
+.readon {display:inline;}
+.readon .button {line-height:24px;}
+.bodylevel-low .readon span {line-height: 20px;}
+
+/* Breadcrumb */
+.rt-breadcrumb-surround {display: inline;}
+
+/* Footer */
+#gantry-resetsettings {display:inline;}
+
+/* RokStories */
+.rokstories-tip {padding: 0px 10px 25px !important;}
+
+/* RokTabs */
+.roktabs-links ul.roktabs-top, .roktabs-links ul.roktabs-bottom {zoom:1;position:relative;}
+.roktabs, .roktabs-topbar, .roktabs-topbar2, .roktabs-topbar3, .roktabs-links, ul.roktabs-top {zoom:1;position: relative;}
+.roktabs-wrapper .roktabs-top .tab1, .roktabs-wrapper .roktabs-top .tab2 {float:left;zoom:1;}
+.roktabs-wrapper .roktabs-links ul li {white-space: nowrap;}
+.roktabs-wrapper .roktabs-links ul li span {display: inline-block;}
+
+/* RokNewsPager */
+body div.roknewspager-div {zoom: 1;}
+body ul.roknewspager li {text-indent:0;width:100%;}
+body .roknewspager-wrapper {display: inline;zoom: 1; position: relative;}
+body .roknewspager-comments div.roknewspager-div {zoom: 1;}
+body .roknewspager-comments ul.roknewspager li {display: inline;}
+body #rt-showcase .roknewspager-wrapper {display: inline;zoom: 1; position: relative;}
+
+/* RokTwittie */
+.roktwittie {width:100%;}
+.roktwittie li, .roktwittie .roktwittie-text, .roktwittie-text {zoom:1;}
+.roktwittie li, .roktwittie-text .roktwittie-date {display:inline;}
+
+/* JComments */
+body .rt-block ul.jclist a {zoom:1;margin-left:-15px;}
+body .rt-block ul.jclist img {margin-right:20px;}
+.comment-body-middle {zoom:1;}
+.rok-comment-entry .cbutton a {zoom:1;display:inline;}
+#comments-form {zoom: 1;}
+#comments-form textarea, #comments-form input, #comments-form input.captcha {margin-left: 0 !important;zoom:1;}
+.rok-comment-entry .comment-body-top {margin-left:6px;}
+.rok-comment-entry .comment-body-top .cbt-1 {display:none;}
+.rok-comment-entry .comment-body-top .cbt-2 {display:none;}
+.rok-comment-entry .comment-body-bottom {display:none;}
+.rok-comment-entry .comment-body-top .cbt-3 {margin:0}
+#comments .comments-buttons {right:9px;bottom:-2px;}
