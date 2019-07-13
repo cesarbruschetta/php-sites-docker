@@ -31,7 +31,7 @@ Utilize o arquivo `docker-compose.yml` para alterar as variavles de ambiente e p
 
 Variaveis exportadas na docker para coneção com o DB
 ```
-    $_SERVER['MYSQL_USER']
-    $_SERVER['MYSQL_PASS']
-    $_SERVER['MYSQL_HOST']
+    $_ENV['MYSQL_USER']
+    $_ENV['MYSQL_PASS']
+    $_ENV['MYSQL_HOST']
 ```

@@ -44,6 +44,7 @@ tmp/*
 *.swo
 *.swp
 *~
+*.db
 
 nbproject
 patches-*
